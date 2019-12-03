@@ -14,6 +14,7 @@
         <module>changinglife-entity</module>
         <module>changinglife-util</module>
         <module>changinglife-controller</module>
+        <module>changinglife-controller</module>
     </modules>
 
     <properties>
@@ -36,18 +37,22 @@
 
     <dependencyManagement>
         <dependencies>
+            <!--mybatis常用的包，dao包里面常用-->
             <dependency>
                 <groupId>org.mybatis</groupId>
                 <artifactId>mybatis</artifactId>
                 <version>${mybatis.version}</version>
             </dependency>
 
+            <!--连接数据库的包，在控制类中常用-->
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
             </dependency>
 
+            <!--是servlet的包，缺少这个包1.无法使用HttpServlet。
+            2.会使得WebConfig配置出现找不到ServletException类文件-->
             <dependency>
                 <groupId>javax.servlet</groupId>
                 <artifactId>javax.servlet-api</artifactId>
@@ -55,42 +60,49 @@
                 <scope>provided</scope>
             </dependency>
 
+            <!---->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
                 <version>${spring.version}</version>
             </dependency>
 
+            <!---->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-jdbc</artifactId>
                 <version>${spring.version}</version>
             </dependency>
 
+            <!---->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-webmvc</artifactId>
                 <version>${spring.version}</version>
             </dependency>
 
+            <!---->
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid</artifactId>
                 <version>${druid.version}</version>
             </dependency>
 
+            <!---->
             <dependency>
                 <groupId>org.mybatis</groupId>
                 <artifactId>mybatis-spring</artifactId>
                 <version>${mybatis.spring.version}</version>
             </dependency>
 
+            <!---->
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper</artifactId>
                 <version>${pagehelper.version}</version>
             </dependency>
 
+            <!---->
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>

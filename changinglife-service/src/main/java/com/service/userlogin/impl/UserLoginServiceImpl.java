@@ -5,6 +5,7 @@ import com.entrty.UserLogin;
 import com.service.userlogin.UserLoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author XJ
