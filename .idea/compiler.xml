@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="changinglife-util" />
+        <module name="changinglife-dao" />
+        <module name="changinglife-service" />
+        <module name="changinglife-entity" />
+        <module name="changinglife-controller" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

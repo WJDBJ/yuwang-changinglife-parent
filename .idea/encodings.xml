@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-controller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-controller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-controller/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-entity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/changinglife-util/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

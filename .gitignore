@@ -1,0 +1,5 @@
+# Project exclude paths
+/changinglife-controller/target/
+/changinglife-dao/target/
+/changinglife-entity/target/
+/changinglife-service/target/
