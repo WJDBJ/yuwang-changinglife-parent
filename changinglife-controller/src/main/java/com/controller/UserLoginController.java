@@ -17,9 +17,10 @@ public class UserLoginController {
     @Autowired
     private UserLoginService userLoginService;
 
+
     @RequestMapping("/login")
     public String login() {
-        return "/login/userLogin";
+        return "me/userLogin";
     }
 
     @RequestMapping("/inLogin")
