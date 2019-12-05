@@ -12,13 +12,13 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Service
 public class UserLoginServiceImpl implements UserLoginService {
-    @Autowired
+    @Autowired(required = false)
     private UserLoginDao userLoginDao;
     /**
      * 用户登录验证数据库
      *
      * @param userLogin 传入用户的账号密码
-     * @return
+     *
      */
     @Override
     public int loginGetById(UserLogin userLogin) {

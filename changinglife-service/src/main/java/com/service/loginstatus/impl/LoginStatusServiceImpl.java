@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class LoginStatusServiceImpl implements LoginStatusService {
-    @Autowired
+    @Autowired(required = false)
     private LoginStatusDao loginStatusDao;
 
     @Override
