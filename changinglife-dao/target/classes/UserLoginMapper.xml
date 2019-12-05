@@ -13,4 +13,11 @@
         select count(*) from userlogin
         where login_accoun = #{loginAccoun} and login_password = #{loginPassword}
     </select>
+    <select id="loginGetId" resultType="java.lang.String">
+        select login_id from userlogin
+        where login_accoun = #{loginAccoun} and login_password = #{loginPassword}
+    </select>
+    <select id="loginCountId" resultType="java.lang.Integer">
+        select count(*) from userlogin where login_id = #{Id}
+    </select>
 </mapper>

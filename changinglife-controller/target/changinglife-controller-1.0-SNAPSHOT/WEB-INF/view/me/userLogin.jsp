@@ -75,16 +75,18 @@
         <legend>欢迎登陆</legend>
     </fieldset>
     <div class="layui-row layui-col-space15">
-        <form class="layui-form zyl_pad_01" action="/verify">
+        <form class="layui-form zyl_pad_01"  action="/login/inLogin">
             <div class="layui-col-sm12 layui-col-md12">
                 <div class="layui-form-item">
-                    <input type="text" name="userName" lay-verify="required|userName" autocomplete="off" placeholder="用户名" class="layui-input" value="${Login.loginsname}">
+                    <input type="text" name="loginAccoun" lay-verify="required|userName" autocomplete="off"
+                           placeholder="用户名" class="layui-input" value="${Login.loginAccoun}">
                     <i class="layui-icon layui-icon-username zyl_lofo_icon"></i>
                 </div>
             </div>
             <div class="layui-col-sm12 layui-col-md12">
                 <div class="layui-form-item">
-                    <input type="password" name="nuse" lay-verify="required|pass" autocomplete="off" placeholder="密码" class="layui-input" value="${Login.loginspwd}">
+                    <input type="password" name="loginPassword" lay-verify="required|pass" autocomplete="off"
+                           placeholder="密码" class="layui-input" value="${Login.loginPassword}">
                     <i class="layui-icon layui-icon-password zyl_lofo_icon"></i>
                 </div>
             </div>
@@ -92,7 +94,8 @@
                 <div class="layui-row">
                     <div class="layui-col-xs4 layui-col-sm4 layui-col-md4">
                         <div class="layui-form-item">
-                            <input type="text" name="vercode" id="vercode" lay-verify="required|vercodes" autocomplete="off" placeholder="验证码" class="layui-input" maxlength="4">
+                            <input type="text" name="vercode" id="vercode" lay-verify="required|vercodes"
+                                   autocomplete="off" placeholder="验证码" class="layui-input" maxlength="4">
                             <i class="layui-icon layui-icon-vercode zyl_lofo_icon"></i>
                         </div>
                     </div>
@@ -105,7 +108,8 @@
                 <button class="layui-btn layui-btn-fluid" lay-submit="" lay-filter="demo1">立即登录</button>
             </div>
         </form>
-        <div class="layui-col-sm12 layui-col-md12" style="text-align:center;font-size: 14px;margin-bottom: 20px;">没有账号？立刻<a href="/register" style="color: crimson;margin-left: 3px;">注册</a></div>
+        <div class="layui-col-sm12 layui-col-md12" style="text-align:center;font-size: 14px;margin-bottom: 20px;">
+            没有账号？立刻<a href="/loginInfo/register" style="color: crimson;margin-left: 3px;">注册</a></div>
     </div>
 </div>
 <!-- LoginForm End -->
@@ -148,8 +152,8 @@
         form.on('submit(demo1)', function(data){
             layer.alert(JSON.stringify(data.field),{
                 title: '最终的提交信息'
-            })
-//				return false;
+            });
+            return false;
         });
 
 

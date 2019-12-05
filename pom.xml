@@ -127,6 +127,14 @@
                 <version>${jcl-over-slf4j.version}</version>
             </dependency>
 
+            <!-- 随机 -->
+            <dependency>
+                <groupId>org.apache.directory.studio</groupId>
+                <artifactId>org.apache.commons.lang</artifactId>
+                <version>2.6</version>
+            </dependency>
+
+
             <!---->
             <dependency>
                 <groupId>ch.qos.logback</groupId>

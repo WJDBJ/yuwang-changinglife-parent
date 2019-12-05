@@ -12,4 +12,18 @@ public interface UserLoginService {
      * @return
      */
     int loginGetById(UserLogin userLogin);
+
+    /**
+     * 找出用户的ID
+     * @param userLogin
+     * @return
+     */
+    String loginGetId(UserLogin userLogin);
+
+    /**
+     * 查询有没有这个Id
+     * @param Id
+     * @return
+     */
+    int loginCountId(String Id);
 }
