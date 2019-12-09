@@ -8,9 +8,10 @@ import lombok.Data;
 @Data
 public class UserLoginVO {
     private String loginId;
-
     private String loginAccoun;
     private String loginPassword;
+
+    private UserLoginVO(){}
 
     private UserLoginVO(Builder builder) {
         setLoginId(builder.loginId);

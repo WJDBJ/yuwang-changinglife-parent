@@ -6,7 +6,7 @@
     <insert id="loginInsert">
         insert into userlogin(login_id, login_accoun, login_password)
         values
-        (#{login_id},#{login_accoun},#{login_password})
+        (#{loginId},#{loginAccoun},#{loginPassword})
     </insert>
 
     <select id="loginGetById" resultType="java.lang.Integer">

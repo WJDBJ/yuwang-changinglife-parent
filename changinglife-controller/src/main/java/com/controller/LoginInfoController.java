@@ -44,12 +44,15 @@ public class LoginInfoController {
         System.out.println("filename = " + filename);
         userLoginVO.setLoginId(filename);
         UserLogin userLogin = (UserLogin) copy(userLoginVO,UserLogin.class);
+        System.out.println("userLogin = " + userLogin);
         UserInfo userInfo = (UserInfo) copy
                 (UserInfoVO.newBuilder().infoDesc("用户没有什么要说的").loginUid(filename).build(),UserInfo.class);
+        System.out.println("userInfo = " + userInfo);
         try {
             loginInfoService.loginInfo(userLogin,userInfo);
         }catch (Exception e) {
             modelAndView.setViewName("me/register");
+            return modelAndView;
         }
         modelAndView.setViewName("me/userLogin");
         return modelAndView;

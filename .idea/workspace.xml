@@ -7,9 +7,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf9d81af-d97c-4fa4-8ba3-01d0ea7c8c01" name="Default Changelist" comment="第1.3次提交">
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/assembly/xadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/loginstatus/impl/LoginStatusServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/loginstatus/impl/LoginStatusServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userlogin/impl/UserLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userlogin/impl/UserLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/LoginInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/LoginInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/UserLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/vo/UserLoginVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/vo/UserLoginVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/classes/com/controller/UserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/classes/com/controller/UserLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-entity-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/view/me/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/view/me/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/view/me/userLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/view/me/userLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/classes/com/controller/UserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/classes/com/controller/UserLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/me/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/me/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/me/userLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/me/userLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/resources/LoginStatusMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/LoginStatusMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/resources/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/UserInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/resources/UserLoginMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/UserLoginMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-dao/target/classes/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/target/classes/UserInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-dao/target/classes/UserLoginMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/target/classes/UserLoginMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/logininfo/impl/LoginInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/logininfo/impl/LoginInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/logininfo/impl/LoginInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/logininfo/impl/LoginInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userlogin/impl/UserLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userlogin/impl/UserLoginServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +114,8 @@
         <option value="FxmlFile" />
         <option value="Mapper" />
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -99,8 +133,8 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
@@ -118,7 +152,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1U6dVwl2W5JfO3uQVAsrMZoZ6yD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -144,24 +180,26 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateBuilderDialog.RecentsKey">
-      <recent name="com.entrty" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\assembly" />
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\css" />
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\js" />
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\img" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\web\WEB-INF\view\me" />
+      <recent name="E:\workspace\yuwang-changinglife-parent\changinglife-controller\web\WEB-INF\view" />
+    </key>
+    <key name="CreateBuilderDialog.RecentsKey">
+      <recent name="com.entrty" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.vo" />
       <recent name="config" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\assembly" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\fonts" />
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\css" />
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\web\WEB-INF\view\me" />
-      <recent name="E:\workspace\yuwang-changinglife-parent\changinglife-controller\web\WEB-INF\view" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -254,7 +292,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -263,7 +301,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:changedb@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@5861cf2a" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@59e6a06a" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -298,6 +336,9 @@
       <workItem from="1575420013764" duration="9117000" />
       <workItem from="1575430502603" duration="2302000" />
       <workItem from="1575506350515" duration="13377000" />
+      <workItem from="1575592309844" duration="155000" />
+      <workItem from="1575592479682" duration="3962000" />
+      <workItem from="1575857383476" duration="8353000" />
     </task>
     <task id="LOCAL-00001" summary="第1.1次提交">
       <created>1575361266087</created>
@@ -366,10 +407,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="216" y="309" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1575269784833" />
-    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1575549806176">
+    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1575876451290">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1575549806176" />
+    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1575876451290" />
     <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1575342188285">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -386,62 +427,82 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="248" y="82" key="Github.UntrackedFilesDialog/0.0.1366.768@0.0.1366.768" timestamp="1575342533434" />
-    <state width="1043" height="220" key="GridCell.Tab.0.bottom" timestamp="1575549679600">
+    <state width="1043" height="393" key="GridCell.Tab.0.bottom" timestamp="1575876250128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="220" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1575549679600" />
-    <state width="1043" height="220" key="GridCell.Tab.0.center" timestamp="1575549679600">
+    <state width="1043" height="393" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1575876250128" />
+    <state width="1043" height="393" key="GridCell.Tab.0.center" timestamp="1575876250128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="220" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1575549679600" />
-    <state width="1043" height="220" key="GridCell.Tab.0.left" timestamp="1575549679600">
+    <state width="1043" height="393" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1575876250128" />
+    <state width="1043" height="393" key="GridCell.Tab.0.left" timestamp="1575876250127">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="220" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1575549679600" />
-    <state width="1043" height="220" key="GridCell.Tab.0.right" timestamp="1575549679600">
+    <state width="1043" height="393" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1575876250127" />
+    <state width="1043" height="393" key="GridCell.Tab.0.right" timestamp="1575876250128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="220" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1575549679600" />
-    <state width="1043" height="220" key="GridCell.Tab.1.bottom" timestamp="1575549679600">
+    <state width="1043" height="393" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1575876250128" />
+    <state width="1043" height="393" key="GridCell.Tab.1.bottom" timestamp="1575876250128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="220" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1575549679600" />
-    <state width="1043" height="220" key="GridCell.Tab.1.center" timestamp="1575549679600">
+    <state width="1043" height="393" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1575876250128" />
+    <state width="1043" height="393" key="GridCell.Tab.1.center" timestamp="1575876250128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="220" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1575549679600" />
-    <state width="1043" height="220" key="GridCell.Tab.1.left" timestamp="1575549679600">
+    <state width="1043" height="393" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1575876250128" />
+    <state width="1043" height="393" key="GridCell.Tab.1.left" timestamp="1575876250128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="220" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1575549679600" />
-    <state width="1043" height="220" key="GridCell.Tab.1.right" timestamp="1575549679600">
+    <state width="1043" height="393" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1575876250128" />
+    <state width="1043" height="393" key="GridCell.Tab.1.right" timestamp="1575876250128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="220" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1575549679600" />
-    <state width="1043" height="220" key="GridCell.Tab.2.bottom" timestamp="1575549679602">
+    <state width="1043" height="393" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1575876250128" />
+    <state width="1043" height="393" key="GridCell.Tab.2.bottom" timestamp="1575876250128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="220" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1575549679602" />
-    <state width="1043" height="220" key="GridCell.Tab.2.center" timestamp="1575549679600">
+    <state width="1043" height="393" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1575876250128" />
+    <state width="1043" height="393" key="GridCell.Tab.2.center" timestamp="1575876250128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="220" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1575549679600" />
-    <state width="1043" height="220" key="GridCell.Tab.2.left" timestamp="1575549679600">
+    <state width="1043" height="393" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1575876250128" />
+    <state width="1043" height="393" key="GridCell.Tab.2.left" timestamp="1575876250128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="220" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1575549679600" />
-    <state width="1043" height="220" key="GridCell.Tab.2.right" timestamp="1575549679600">
+    <state width="1043" height="393" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1575876250128" />
+    <state width="1043" height="393" key="GridCell.Tab.2.right" timestamp="1575876250128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="220" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1575549679600" />
+    <state width="1043" height="393" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1575876250128" />
+    <state width="1043" height="393" key="GridCell.Tab.3.bottom" timestamp="1575618269032">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1043" height="393" key="GridCell.Tab.3.bottom/0.0.1366.768@0.0.1366.768" timestamp="1575618269032" />
+    <state width="1043" height="393" key="GridCell.Tab.3.center" timestamp="1575618269031">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1043" height="393" key="GridCell.Tab.3.center/0.0.1366.768@0.0.1366.768" timestamp="1575618269031" />
+    <state width="1043" height="393" key="GridCell.Tab.3.left" timestamp="1575618269031">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1043" height="393" key="GridCell.Tab.3.left/0.0.1366.768@0.0.1366.768" timestamp="1575618269031" />
+    <state width="1043" height="393" key="GridCell.Tab.3.right" timestamp="1575618269031">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1043" height="393" key="GridCell.Tab.3.right/0.0.1366.768@0.0.1366.768" timestamp="1575618269031" />
     <state x="263" y="118" key="IDE.errors.dialog" timestamp="1575285443695">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="263" y="118" key="IDE.errors.dialog/0.0.1366.768@0.0.1366.768" timestamp="1575285443695" />
-    <state x="184" y="0" width="1039" height="768" key="SettingsEditor" timestamp="1575360320401">
+    <state x="234" y="94" key="RollbackChangesDialog" timestamp="1575876321356">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="184" y="0" width="1039" height="768" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1575360320401" />
+    <state x="234" y="94" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1575876321356" />
+    <state x="184" y="0" width="1039" height="768" key="SettingsEditor" timestamp="1575862277216">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="0" width="1039" height="768" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1575862277216" />
     <state x="475" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575360778494">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -450,5 +511,20 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="420" y="64" width="917" height="611" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1575359771722" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1575874722489">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1575874722489" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/changinglife-service/src/main/java/com/service/logininfo/impl/LoginInfoServiceImpl.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

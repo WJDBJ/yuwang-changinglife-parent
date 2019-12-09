@@ -14,9 +14,9 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Service
 public class LoginInfoServiceImpl implements LoginInfoService {
-    @Autowired
+    @Autowired(required = false)
     private UserLoginDao userLoginDao;
-    @Autowired
+    @Autowired(required = false)
     private UserInfoDao userInfoDao;
     /**
      * 注册用户的时候自动注册一个用户信息 （注：事务）

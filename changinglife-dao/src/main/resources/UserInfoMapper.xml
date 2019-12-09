@@ -9,18 +9,18 @@
         (info_name, info_gender, info_birthday, info_email, info_address,
         info_age, info_desc, login_uid)
         values
-        (#{info_name},#{info_gender},#{info_birthday},#{info_email},#{info_address},
-        #{info_age},#{info_desc},#{login_uid})
+        (#{infoName},#{infoGender},#{infoBirthday},#{infoEmail},#{infoAddress},
+        #{infoAge},#{infoDesc},#{loginUid})
     </insert>
 
     <update id="infoUpdate">
-        update userinfo set name = #{name},gender = #{gender},birthday = #{birthday},
-        email = #{email},address = #{address},age = #{age},
-        personal_profile = #{personal_profile} where uid = #{uid}
+        update userinfo set info_name = #{infoName},info_gender = #{infoGender},
+        info_birthday = #{infoBirthday},info_email = #{infoEmail},info_address = #{infoAddress},
+        info_age = #{infoAge},info_desc = #{infoDesc} where login_uid = #{loginUid}
     </update>
 
     <select id="infoGetById" resultType="com.entrty.UserInfo">
-        select id, name, gender, birthday, email, address, age, personal_profile, uid
-        from userinfo where uid = #{uid}
+        select info_id, info_name, info_gender, info_birthday, info_email, info_address, info_age, info_desc, login_uid
+        from userinfo where login_uid = #{uid}
     </select>
 </mapper>

@@ -47,10 +47,10 @@ public class UserLoginController {
             modelAndView.addObject("userId",userId);
             switch (loginStatusService.getId(userId)) {
                 case 1:{
-                    modelAndView.setViewName("admin");
+                    modelAndView.setViewName("be/admin");
                 }break;
-                case 2:{
-                    modelAndView.setViewName("creators");
+                case 3:{
+                    modelAndView.setViewName("fe/user");
                 }break;
                 default:{
                     modelAndView.setViewName("error");
