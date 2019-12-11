@@ -2,9 +2,10 @@ package com.controller;
 
 import com.entrty.UserInfo;
 import com.entrty.UserLogin;
+import com.entrty.UserStatus;
 import com.service.logininfo.LoginInfoService;
-import com.service.userinfo.UserInfoService;
 import com.service.userlogin.UserLoginService;
+import com.service.userstatus.UserStatusService;
 import com.vo.UserInfoVO;
 import com.vo.UserLoginVO;
 import org.apache.commons.lang.RandomStringUtils;
@@ -24,16 +25,28 @@ public class LoginInfoController {
     private UserLoginService userLoginService;
     @Autowired
     private LoginInfoService loginInfoService;
+    @Autowired
+    private UserStatusService userStatusService;
 
+    /**
+     * 注册界面
+     * @return
+     */
     @RequestMapping("/register")
     public String register() {
         return "me/register";
     }
 
+    /**
+     *注册
+     * @param userLoginVO 注册的内容
+     * @return
+     */
     @RequestMapping("/inRegister")
     public ModelAndView inRegister(UserLoginVO userLoginVO) {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("Login",userLoginVO);
+        //得到一个唯一的用户ID
         String filename;
         while(true) {
             filename = RandomStringUtils.randomAlphanumeric(11);
@@ -43,17 +56,24 @@ public class LoginInfoController {
         }
         System.out.println("filename = " + filename);
         userLoginVO.setLoginId(filename);
+        //获得UserLogin的对象
         UserLogin userLogin = (UserLogin) copy(userLoginVO,UserLogin.class);
-        System.out.println("userLogin = " + userLogin);
         UserInfo userInfo = (UserInfo) copy
-                (UserInfoVO.newBuilder().infoDesc("用户没有什么要说的").loginUid(filename).build(),UserInfo.class);
-        System.out.println("userInfo = " + userInfo);
+                (UserInfoVO.newBuilder().infoName(userLoginVO.getLoginName()).
+                        infoImg("/static/images/1.png").infoDesc("用户没有什么要说的")
+                        .loginUid(filename).build(),UserInfo.class);
         try {
+            //用事务尝试添加用户和用户信息
             loginInfoService.loginInfo(userLogin,userInfo);
         }catch (Exception e) {
             modelAndView.setViewName("me/register");
             return modelAndView;
         }
+        //添加用户后给用户添加权限
+        UserStatus userStatus = new UserStatus();
+        userStatus.setStatusIds(3);
+        userStatus.setUserIds(filename);
+        userStatusService.insert(userStatus);
         modelAndView.setViewName("me/userLogin");
         return modelAndView;
     }

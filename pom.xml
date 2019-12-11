@@ -36,6 +36,7 @@
         <jstl.version>1.2</jstl.version>
         <jcl-over-slf4j.version>1.7.28</jcl-over-slf4j.version>
         <logback.version>1.2.3</logback.version>
+        <jackson.version>2.10.1</jackson.version>
     </properties>
 
     <dependencyManagement>
@@ -140,6 +141,13 @@
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
                 <version>${logback.version}</version>
+            </dependency>
+
+            <!--处理json的-->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

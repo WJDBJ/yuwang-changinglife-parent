@@ -33,7 +33,7 @@ public class UserLoginController {
     }
 
     /**
-     * 进行登录的操作，1.管理者界面，2.创作者界面
+     * 进行登录的操作，1.管理者界面，3.用户界面
      * @param userLoginVO
      * @return
      */

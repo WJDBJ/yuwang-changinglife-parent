@@ -10,6 +10,7 @@ public class UserLoginVO {
     private String loginId;
     private String loginAccoun;
     private String loginPassword;
+    private String loginName;
 
     private UserLoginVO(){}
 
@@ -17,6 +18,7 @@ public class UserLoginVO {
         setLoginId(builder.loginId);
         setLoginAccoun(builder.loginAccoun);
         setLoginPassword(builder.loginPassword);
+        setLoginName(builder.loginName);
     }
 
     public static Builder newBuilder() {
@@ -27,6 +29,7 @@ public class UserLoginVO {
         private String loginId;
         private String loginAccoun;
         private String loginPassword;
+        private String loginName;
 
         private Builder() {
         }
@@ -43,6 +46,11 @@ public class UserLoginVO {
 
         public Builder loginPassword(String val) {
             loginPassword = val;
+            return this;
+        }
+
+        public Builder loginName(String val) {
+            loginName = val;
             return this;
         }
 

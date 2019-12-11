@@ -16,8 +16,11 @@ public class UserInfoVO {
     private String infoEmail;
     private String infoAddress;
     private int infoAge;
+    private String infoImg;
     private String infoDesc;
     private String loginUid;
+
+    private UserInfoVO() {}
 
     private UserInfoVO(Builder builder) {
         setInfoId(builder.infoId);
@@ -27,6 +30,7 @@ public class UserInfoVO {
         setInfoEmail(builder.infoEmail);
         setInfoAddress(builder.infoAddress);
         setInfoAge(builder.infoAge);
+        setInfoImg(builder.infoImg);
         setInfoDesc(builder.infoDesc);
         setLoginUid(builder.loginUid);
     }
@@ -34,7 +38,6 @@ public class UserInfoVO {
     public static Builder newBuilder() {
         return new Builder();
     }
-
 
     public static final class Builder {
         private int infoId;
@@ -44,6 +47,7 @@ public class UserInfoVO {
         private String infoEmail;
         private String infoAddress;
         private int infoAge;
+        private String infoImg;
         private String infoDesc;
         private String loginUid;
 
@@ -82,6 +86,11 @@ public class UserInfoVO {
 
         public Builder infoAge(int val) {
             infoAge = val;
+            return this;
+        }
+
+        public Builder infoImg(String val) {
+            infoImg = val;
             return this;
         }
 

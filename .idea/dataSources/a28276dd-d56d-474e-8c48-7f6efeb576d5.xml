@@ -926,7 +926,7 @@
     <table id="233" parent="2" name="status">
       <Comment>身份表 </Comment>
     </table>
-    <table id="234" parent="2" name="user_identity">
+    <table id="234" parent="2" name="user_status">
       <Comment>身份用户连接表 </Comment>
     </table>
     <table id="235" parent="2" name="userinfo">
@@ -954,7 +954,7 @@
       <ColNames>status_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="240" parent="234" name="identity_id">
+    <column id="240" parent="234" name="us_id">
       <Position>1</Position>
       <Comment>连接编号</Comment>
       <DataType>int(11)|0s</DataType>
@@ -962,7 +962,7 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="234" name="identity_ids">
+    <column id="241" parent="234" name="status_ids">
       <Position>2</Position>
       <Comment>用户身份</Comment>
       <DataType>int(11)|0s</DataType>
@@ -975,8 +975,8 @@
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <index id="243" parent="234" name="identity_ids">
-      <ColNames>identity_ids</ColNames>
+    <index id="243" parent="234" name="status_ids">
+      <ColNames>status_ids</ColNames>
       <Type>btree</Type>
     </index>
     <index id="244" parent="234" name="user_ids">
@@ -985,15 +985,15 @@
     </index>
     <key id="245" parent="234" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>identity_id</ColNames>
+      <ColNames>us_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="246" parent="234" name="user_identity_ibfk_1">
-      <ColNames>identity_ids</ColNames>
+    <foreign-key id="246" parent="234" name="user_status_ibfk_1">
+      <ColNames>status_ids</ColNames>
       <RefTableName>status</RefTableName>
       <RefColNames>status_id</RefColNames>
     </foreign-key>
-    <foreign-key id="247" parent="234" name="user_identity_ibfk_2">
+    <foreign-key id="247" parent="234" name="user_status_ibfk_2">
       <ColNames>user_ids</ColNames>
       <RefTableName>userlogin</RefTableName>
       <RefColNames>login_id</RefColNames>
@@ -1046,35 +1046,42 @@
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="255" parent="235" name="info_desc">
+    <column id="255" parent="235" name="info_img">
       <Position>8</Position>
+      <Comment>头像</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <column id="256" parent="235" name="info_desc">
+      <Position>9</Position>
       <Comment>个人简介</Comment>
       <DataType>varchar(300)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="256" parent="235" name="login_uid">
-      <Position>9</Position>
+    <column id="257" parent="235" name="login_uid">
+      <Position>10</Position>
       <Comment>关联用户账号密码表 关联用户登录表</Comment>
       <DataType>varchar(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <index id="257" parent="235" name="login_uid">
+    <index id="258" parent="235" name="login_uid">
       <ColNames>login_uid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="258" parent="235" name="PRIMARY">
+    <key id="259" parent="235" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>info_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="259" parent="235" name="userinfo_ibfk_1">
+    <foreign-key id="260" parent="235" name="userinfo_ibfk_1">
       <ColNames>login_uid</ColNames>
       <RefTableName>userlogin</RefTableName>
       <RefColNames>login_id</RefColNames>
     </foreign-key>
-    <column id="260" parent="236" name="login_id">
+    <column id="261" parent="236" name="login_id">
       <Position>1</Position>
       <Comment>登录ID 用于关联用户账号</Comment>
       <DataType>varchar(11)|0s</DataType>
@@ -1082,21 +1089,21 @@
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="261" parent="236" name="login_accoun">
+    <column id="262" parent="236" name="login_accoun">
       <Position>2</Position>
       <Comment>用户账号 用户的登录账号（一般为手机号）</Comment>
       <DataType>varchar(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="262" parent="236" name="login_password">
+    <column id="263" parent="236" name="login_password">
       <Position>3</Position>
       <Comment>用户密码 用户的登录密码</Comment>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <key id="263" parent="236" name="PRIMARY">
+    <key id="264" parent="236" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>login_id</ColNames>
       <Primary>1</Primary>

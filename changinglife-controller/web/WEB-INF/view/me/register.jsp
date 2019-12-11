@@ -38,6 +38,11 @@
                        placeholder="请输入密码名" value="${Login.loginPassword}" required>
             </div>
             <div class="form_item">
+                <label for="username">用户昵称：</label>
+                <input type="text" name="loginName" id="loginname"
+                       placeholder="请输入用户昵称" value="${Login.loginName}" required >
+            </div>
+            <div class="form_item">
                 <input type="submit" value="注册">
             </div>
         </form>

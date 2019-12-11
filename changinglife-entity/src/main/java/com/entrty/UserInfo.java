@@ -16,6 +16,7 @@ public class UserInfo {
     private String infoEmail;
     private String infoAddress;
     private int infoAge;
+    private String infoImg;
     private String infoDesc;
     private String loginUid;
 }
