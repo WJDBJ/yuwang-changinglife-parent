@@ -28,6 +28,13 @@ public interface UserLoginDao {
     int loginInsert(UserLogin userLogin);
 
     /**
+     * 查询有没有重复的手机号注册
+     * @param accoun
+     * @return
+     */
+    int selectById(String accoun);
+
+    /**
      * 查询有没有这个Id
      * @param Id
      * @return

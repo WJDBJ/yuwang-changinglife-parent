@@ -16,7 +16,7 @@
     <update id="infoUpdate">
         update userinfo set info_name = #{infoName},info_gender = #{infoGender},
         info_birthday = #{infoBirthday},info_email = #{infoEmail},
-        info_address = #{infoAddress},info_age = #{infoAge},info_img = #{ingoImg}
+        info_address = #{infoAddress},info_age = #{infoAge},info_img = #{infoImg},
         info_desc = #{infoDesc} where login_uid = #{loginUid}
     </update>
 

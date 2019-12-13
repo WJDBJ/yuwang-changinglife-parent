@@ -14,6 +14,13 @@ public interface UserLoginService {
     int loginGetById(UserLogin userLogin);
 
     /**
+     * 查询有没有重复的手机号注册
+     * @param accoun
+     * @return
+     */
+    int selectById(String accoun);
+
+    /**
      * 找出用户的ID
      * @param userLogin
      * @return

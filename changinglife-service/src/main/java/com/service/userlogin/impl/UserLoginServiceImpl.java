@@ -26,6 +26,11 @@ public class UserLoginServiceImpl implements UserLoginService {
     }
 
     @Override
+    public int selectById(String accoun) {
+        return userLoginDao.selectById(accoun);
+    }
+
+    @Override
     public String loginGetId(UserLogin userLogin) {
         return userLoginDao.loginGetId(userLogin);
     }

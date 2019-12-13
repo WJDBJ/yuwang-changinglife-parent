@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class UserInfoServiceImpl implements UserInfoService {
-    @Autowired
+    @Autowired(required = false)
     private UserInfoDao userInfoDao;
     /**
      * 用户修改自己的信息

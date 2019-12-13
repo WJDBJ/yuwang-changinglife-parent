@@ -62,19 +62,24 @@ public class LoginInfoController {
                 (UserInfoVO.newBuilder().infoName(userLoginVO.getLoginName()).
                         infoImg("/static/images/1.png").infoDesc("用户没有什么要说的")
                         .loginUid(filename).build(),UserInfo.class);
-        try {
-            //用事务尝试添加用户和用户信息
-            loginInfoService.loginInfo(userLogin,userInfo);
-        }catch (Exception e) {
+        //用事务尝试添加用户和用户信息
+        if(userLoginService.selectById(userLogin.getLoginAccoun())>0) {
             modelAndView.setViewName("me/register");
-            return modelAndView;
+            modelAndView.addObject("msg","数据库已经有该数据,请勿重复录入");
+        }else {
+            try {
+                loginInfoService.loginInfo(userLogin,userInfo);
+                //添加用户后给用户添加权限
+                UserStatus userStatus = new UserStatus();
+                userStatus.setStatusIds(3);
+                userStatus.setUserIds(filename);
+                userStatusService.insert(userStatus);
+                modelAndView.setViewName("me/userLogin");
+            }catch (Exception e) {
+                modelAndView.setViewName("me/register");
+                modelAndView.addObject("msg","录入数据出现问题");
+            }
         }
-        //添加用户后给用户添加权限
-        UserStatus userStatus = new UserStatus();
-        userStatus.setStatusIds(3);
-        userStatus.setUserIds(filename);
-        userStatusService.insert(userStatus);
-        modelAndView.setViewName("me/userLogin");
         return modelAndView;
     }
 

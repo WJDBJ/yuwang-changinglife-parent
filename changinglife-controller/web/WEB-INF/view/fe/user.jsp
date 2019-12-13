@@ -27,10 +27,10 @@
     <script type="text/javascript">
         $(function () {
             const obj = {"name":'${userId}'};
-            $.getJSON("/getName",obj,function(data){
+            $.getJSON("/userInfo/getName",obj,function(data){
                 if(data.code == "200") {
-                    alert(data.msg);
-                    $("#name").val(data.data.infoName);
+                    console.log(data.msg);
+                    $("#img").next().text(data.data.infoName);
                     $("#img").attr("src",data.data.infoImg)
                 }else if(data.code == "500") {
                     console.log(data.msg);
@@ -54,13 +54,13 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <img  id="img" src="" class="img-circle" style="width: 30px;height: 30px;">
-                        <span id="name"></span>
+                        <span></span>
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">个人信息</a></li>
+                        <li><a href="/userInfo/inInfo">个人信息</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">退出登录</a></li>
+                        <li><a href="/login/login">退出登录</a></li>
                     </ul>
                 </li>
             </ul>
