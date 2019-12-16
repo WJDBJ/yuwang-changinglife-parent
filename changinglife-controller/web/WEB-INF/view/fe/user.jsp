@@ -27,7 +27,7 @@
     <script type="text/javascript">
         $(function () {
             const obj = {"name":'${userId}'};
-            $.getJSON("/userInfo/getName",obj,function(data){
+            $.getJSON("/feMain/getName",obj,function(data){
                 if(data.code == "200") {
                     console.log(data.msg);
                     $("#img").next().text(data.data.infoName);
@@ -58,7 +58,7 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="/userInfo/inInfo">个人信息</a></li>
+                        <li><a href="/personalInformation/inInfo">个人信息</a></li>
                         <li class="divider"></li>
                         <li><a href="/login/login">退出登录</a></li>
                     </ul>

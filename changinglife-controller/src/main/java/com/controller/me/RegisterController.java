@@ -1,4 +1,4 @@
-package com.controller;
+package com.controller.me;
 
 import com.entrty.UserInfo;
 import com.entrty.UserLogin;
@@ -16,11 +16,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
+ * 目的：注册界面
+ * 作用：注册
  * @author XJ
  */
 @Controller
-@RequestMapping("/loginInfo")
-public class LoginInfoController {
+@RequestMapping("/register")
+public class RegisterController {
     @Autowired
     private UserLoginService userLoginService;
     @Autowired

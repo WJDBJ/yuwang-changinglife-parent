@@ -30,7 +30,7 @@
     </div>
     <div class="media-body">
         <button id="replaceImg" class="l-btn" style="margin-top: 50px;">更换图片</button>
-        <a href="/userInfo/back" class="btn btn-primary" style="width: 100px;">'<<'返回主页
+        <a href="/feMain/back" class="btn btn-primary" style="width: 100px;">'<<'返回主页
         </a>
     </div>
 </div>

@@ -125,7 +125,7 @@ const picture_clipping_tool = function ($img) {
                         formDate.append("userId",userId);
                         formDate.append("myFile", convert_base64_url_to_blob(base64url),"1.jpg");
                         $.ajax({
-                            url: '/userInfo/upload',
+                            url: '/personalInformation/upload',
                             type: 'POST',
                             dataType: "json",
                             data: formDate,

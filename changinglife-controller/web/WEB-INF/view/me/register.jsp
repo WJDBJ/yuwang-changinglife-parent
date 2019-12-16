@@ -28,7 +28,7 @@
     </c:if>
     <!--注册表单-->
     <div class="form_register" style="position:absolute">
-        <form action="/loginInfo/inRegister">
+        <form action="/register/inRegister">
             <h1>注册</h1>
             <div class="form_item">
                 <label for="username">用户名：</label>

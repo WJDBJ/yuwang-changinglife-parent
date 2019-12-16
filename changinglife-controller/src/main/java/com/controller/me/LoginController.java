@@ -1,23 +1,23 @@
-package com.controller;
+package com.controller.me;
 
 import com.entrty.UserLogin;
 import com.service.loginstatus.LoginStatusService;
 import com.service.userlogin.UserLoginService;
-import com.vo.ResponseVO;
 import com.vo.UserLoginVO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
+ * 目的：登录界面
+ * 作用：登录
  * @author XJ
  */
 @Controller
 @RequestMapping("/login")
-public class UserLoginController {
+public class LoginController {
     @Autowired
     private UserLoginService userLoginService;
     @Autowired
