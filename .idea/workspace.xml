@@ -7,137 +7,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf9d81af-d97c-4fa4-8ba3-01d0ea7c8c01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/PersonalInformationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/xadmin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/fonts/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/xadmin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/lib/layui/layui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/be/BeMainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/be/privilege/PrivilegeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/be/privilege/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/vo/StatusVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/bootstrapStyle/bootstrapStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/bootstrapStyle/img/bootstrap.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/bootstrapStyle/img/bootstrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/bootstrapStyle/img/line_conn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/bootstrapStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/be/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/be/role.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/fe/userInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/ztree/jquery.ztree.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/ztree/jquery.ztree.excheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/role/role.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/MenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/StatusDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/StatusMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/StatusMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/StatusMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/menu/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/menu/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/status/StatusService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/status/impl/StatusServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/statusmenu/StatusMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/statusmenu/impl/StatusMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-util/src/main/java/com/util/CopyUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a28276dd-d56d-474e-8c48-7f6efeb576d5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a28276dd-d56d-474e-8c48-7f6efeb576d5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/LoginInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/me/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/UserInfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/me/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/assembly/ImgCropping.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/assembly/cropper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/assembly/cropper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/img-cropping.js" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/img-cropping.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/FeMainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/PersonalInformationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/PersonalInformationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/me/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/me/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/me/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/me/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/classes/com/controller/UserInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/classes/com/controller/UserLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/classes/config/MyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/classes/config/MyConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-entity-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/view/me/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/view/me/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/classes/com/controller/UserInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/classes/com/controller/UserLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/classes/config/MyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/classes/config/MyConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/user.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/userInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/me/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/me/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/UserInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/UserInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/UserLoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/UserLoginDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/UserStatusDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/UserStatusDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/resources/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/UserInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/resources/UserStatusMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/UserStatusMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-dao/target/classes/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/target/classes/UserInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-dao/target/classes/com/dao/UserInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/target/classes/com/dao/UserInfoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-dao/target/classes/com/dao/UserLoginDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/target/classes/com/dao/UserLoginDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entrty/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entity/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entrty/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entity/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entrty/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entity/UserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entrty/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entity/UserStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-entity/target/classes/com/entrty/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-entity/target/classes/com/entrty/UserLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/logininfo/LoginInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/logininfo/LoginInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/logininfo/impl/LoginInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/logininfo/impl/LoginInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userinfo/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userinfo/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userinfo/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userinfo/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userlogin/UserLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userlogin/UserLoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userlogin/impl/UserLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userlogin/impl/UserLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userstatus/UserStatusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userstatus/UserStatusService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userstatus/impl/UserStatusServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userstatus/impl/UserStatusServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/logininfo/LoginInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/logininfo/LoginInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/logininfo/impl/LoginInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/logininfo/impl/LoginInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userinfo/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userinfo/UserInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userinfo/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userinfo/impl/UserInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userlogin/UserLoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userlogin/UserLoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userlogin/impl/UserLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userlogin/impl/UserLoginServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-util/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +113,47 @@
         <item name="changedb@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="changedb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="changedb: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="changedb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="changedb: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="menu: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="changedb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="changedb: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="status: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="changedb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="changedb: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="status_menu: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="changedb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="changedb: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="userinfo: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="changedb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="changedb: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="userlogin: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -172,11 +161,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="JavaScript File" />
         <option value="Mapper" />
-        <option value="DeptMapper" />
-        <option value="Interface" />
+        <option value="JavaScript File" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="DeptMapper" />
         <option value="Class" />
       </list>
     </option>
@@ -226,7 +215,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="MyBatisLogPluginindexNum" value="101" />
+    <property name="MyBatisLogPluginindexNum" value="70" />
     <property name="MyBatisLogPluginparameters" value="Parameters:" />
     <property name="MyBatisLogPluginpreparing" value="Preparing:" />
     <property name="MyBatisLogPluginrunning" value="true" />
@@ -247,26 +236,26 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateBuilderDialog.RecentsKey">
+      <recent name="com.entrty" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\css" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\assembly" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\js" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vo" />
+      <recent name="config" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\css" />
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\js" />
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\images" />
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static" />
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\web\WEB-INF\view\me" />
-    </key>
-    <key name="CreateBuilderDialog.RecentsKey">
-      <recent name="com.entrty" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.vo" />
-      <recent name="config" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\css" />
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\assembly" />
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static" />
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\js" />
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -356,6 +345,20 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:changedb@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:changedb@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@49b0737a" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -402,7 +405,9 @@
       <workItem from="1576463692231" duration="1000000" />
       <workItem from="1576467089261" duration="4276000" />
       <workItem from="1576494432194" duration="2597000" />
-      <workItem from="1576497051450" duration="1250000" />
+      <workItem from="1576497051450" duration="2987000" />
+      <workItem from="1576546232791" duration="15482000" />
+      <workItem from="1576628983328" duration="26442000" />
     </task>
     <task id="LOCAL-00001" summary="第1.1次提交">
       <created>1575361266087</created>
@@ -439,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576035524342</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第1.6次提交">
+      <created>1576498383555</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576498383555</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +477,8 @@
     <MESSAGE value="第1.3次提交" />
     <MESSAGE value="第1.4次提交" />
     <MESSAGE value="第1.5次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第1.5次提交" />
+    <MESSAGE value="第1.6次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第1.6次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="42" key="#Project_Structure" timestamp="1575286667057">
@@ -476,10 +489,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="148" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1575342002625" />
-    <state x="632" y="3" key="#com.intellij.ide.util.MemberChooser" timestamp="1576209737869">
+    <state x="632" y="3" key="#com.intellij.ide.util.MemberChooser" timestamp="1576671987958">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="632" y="3" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1576209737869" />
+    <state x="632" y="3" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1576671987958" />
     <state x="493" y="290" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1575359657766">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -492,10 +505,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="216" y="309" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1575269784833" />
-    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1576221001890">
+    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1576676061339">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1576221001890" />
+    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1576676061339" />
     <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1575342188285">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -512,78 +525,78 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="248" y="82" key="Github.UntrackedFilesDialog/0.0.1366.768@0.0.1366.768" timestamp="1575342533434" />
-    <state width="1043" height="305" key="GridCell.Tab.0.bottom" timestamp="1576219350574">
+    <state width="1043" height="236" key="GridCell.Tab.0.bottom" timestamp="1576676061381">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="305" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576219350574" />
-    <state width="1043" height="305" key="GridCell.Tab.0.center" timestamp="1576219350574">
+    <state width="1043" height="236" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576676061381" />
+    <state width="1043" height="236" key="GridCell.Tab.0.center" timestamp="1576676061381">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="305" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1576219350574" />
-    <state width="1043" height="305" key="GridCell.Tab.0.left" timestamp="1576219350574">
+    <state width="1043" height="236" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1576676061381" />
+    <state width="1043" height="236" key="GridCell.Tab.0.left" timestamp="1576676061381">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="305" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1576219350574" />
-    <state width="1043" height="305" key="GridCell.Tab.0.right" timestamp="1576219350574">
+    <state width="1043" height="236" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1576676061381" />
+    <state width="1043" height="236" key="GridCell.Tab.0.right" timestamp="1576676061381">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="305" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1576219350574" />
-    <state width="1043" height="305" key="GridCell.Tab.1.bottom" timestamp="1576209954420">
+    <state width="1043" height="236" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1576676061381" />
+    <state width="1043" height="236" key="GridCell.Tab.1.bottom" timestamp="1576676061381">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="305" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576209954420" />
-    <state width="1043" height="305" key="GridCell.Tab.1.center" timestamp="1576209954419">
+    <state width="1043" height="236" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576676061381" />
+    <state width="1043" height="236" key="GridCell.Tab.1.center" timestamp="1576676061381">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="305" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1576209954419" />
-    <state width="1043" height="305" key="GridCell.Tab.1.left" timestamp="1576209954419">
+    <state width="1043" height="236" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1576676061381" />
+    <state width="1043" height="236" key="GridCell.Tab.1.left" timestamp="1576676061381">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="305" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1576209954419" />
-    <state width="1043" height="305" key="GridCell.Tab.1.right" timestamp="1576209954419">
+    <state width="1043" height="236" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1576676061381" />
+    <state width="1043" height="236" key="GridCell.Tab.1.right" timestamp="1576676061381">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="305" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1576209954419" />
-    <state width="1043" height="305" key="GridCell.Tab.2.bottom" timestamp="1576209954420">
+    <state width="1043" height="236" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1576676061381" />
+    <state width="1043" height="236" key="GridCell.Tab.2.bottom" timestamp="1576676061382">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="305" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576209954420" />
-    <state width="1043" height="305" key="GridCell.Tab.2.center" timestamp="1576209954420">
+    <state width="1043" height="236" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576676061382" />
+    <state width="1043" height="236" key="GridCell.Tab.2.center" timestamp="1576676061382">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="305" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1576209954420" />
-    <state width="1043" height="305" key="GridCell.Tab.2.left" timestamp="1576209954420">
+    <state width="1043" height="236" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1576676061382" />
+    <state width="1043" height="236" key="GridCell.Tab.2.left" timestamp="1576676061382">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="305" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1576209954420" />
-    <state width="1043" height="305" key="GridCell.Tab.2.right" timestamp="1576209954420">
+    <state width="1043" height="236" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1576676061382" />
+    <state width="1043" height="236" key="GridCell.Tab.2.right" timestamp="1576676061382">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="305" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1576209954420" />
-    <state width="1043" height="130" key="GridCell.Tab.3.bottom" timestamp="1576155960215">
+    <state width="1043" height="236" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1576676061382" />
+    <state width="1043" height="236" key="GridCell.Tab.3.bottom" timestamp="1576676061382">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="130" key="GridCell.Tab.3.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576155960215" />
-    <state width="1043" height="130" key="GridCell.Tab.3.center" timestamp="1576155960214">
+    <state width="1043" height="236" key="GridCell.Tab.3.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576676061382" />
+    <state width="1043" height="236" key="GridCell.Tab.3.center" timestamp="1576676061382">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="130" key="GridCell.Tab.3.center/0.0.1366.768@0.0.1366.768" timestamp="1576155960214" />
-    <state width="1043" height="130" key="GridCell.Tab.3.left" timestamp="1576155960214">
+    <state width="1043" height="236" key="GridCell.Tab.3.center/0.0.1366.768@0.0.1366.768" timestamp="1576676061382" />
+    <state width="1043" height="236" key="GridCell.Tab.3.left" timestamp="1576676061382">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="130" key="GridCell.Tab.3.left/0.0.1366.768@0.0.1366.768" timestamp="1576155960214" />
-    <state width="1043" height="130" key="GridCell.Tab.3.right" timestamp="1576155960214">
+    <state width="1043" height="236" key="GridCell.Tab.3.left/0.0.1366.768@0.0.1366.768" timestamp="1576676061382" />
+    <state width="1043" height="236" key="GridCell.Tab.3.right" timestamp="1576676061382">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="130" key="GridCell.Tab.3.right/0.0.1366.768@0.0.1366.768" timestamp="1576155960214" />
+    <state width="1043" height="236" key="GridCell.Tab.3.right/0.0.1366.768@0.0.1366.768" timestamp="1576676061382" />
     <state x="263" y="118" key="IDE.errors.dialog" timestamp="1575285443695">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="263" y="118" key="IDE.errors.dialog/0.0.1366.768@0.0.1366.768" timestamp="1575285443695" />
-    <state x="234" y="94" key="RollbackChangesDialog" timestamp="1576411646856">
+    <state x="234" y="94" key="RollbackChangesDialog" timestamp="1576667889541">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="234" y="94" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1576411646856" />
+    <state x="234" y="94" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1576667889541" />
     <state x="184" y="0" width="1039" height="768" key="SettingsEditor" timestamp="1575862277216">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -592,10 +605,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="503" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1576155303621" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1576221014965">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1576498412974">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1576221014965" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1576498412974" />
+    <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog" timestamp="1576653917777">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.768@0.0.1366.768" timestamp="1576653917777" />
     <state x="475" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575360778494">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -612,9 +629,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1576112693053" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1576120082093">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1576546384972">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1576120082093" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1576546384972" />
   </component>
 </project>

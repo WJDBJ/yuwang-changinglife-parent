@@ -1,4 +1,4 @@
-package com.entrty;
+package com.entity;
 
 import lombok.Data;
 
@@ -7,7 +7,6 @@ import lombok.Data;
  */
 @Data
 public class UserStatus {
-    int usId;
     int statusIds;
     String userIds;
 }

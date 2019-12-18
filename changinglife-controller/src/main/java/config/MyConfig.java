@@ -14,6 +14,8 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.format.FormatterRegistry;
 import org.springframework.format.datetime.DateFormatter;
+import org.springframework.jdbc.datasource.DataSourceTransactionManager;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.servlet.config.annotation.*;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
@@ -29,6 +31,7 @@ import java.util.Properties;
 @Import(JdbcConfig.class)
 @MapperScan("com.dao")
 @EnableWebMvc
+@EnableTransactionManagement
 public class MyConfig implements WebMvcConfigurer {
     @Autowired
     DataSource dataSource;
@@ -68,6 +71,13 @@ public class MyConfig implements WebMvcConfigurer {
         viewResolver.setSuffix(".jsp");
         viewResolver.setPrefix("/WEB-INF/view/");
         return viewResolver;
+    }
+
+    @Bean
+    public DataSourceTransactionManager dataSourceTransactionManager() {
+        DataSourceTransactionManager dataSourceTransactionManager = new DataSourceTransactionManager();
+        dataSourceTransactionManager.setDataSource(dataSource);
+        return dataSourceTransactionManager;
     }
 
     @Override

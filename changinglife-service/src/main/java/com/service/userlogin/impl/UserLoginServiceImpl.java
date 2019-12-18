@@ -1,11 +1,10 @@
 package com.service.userlogin.impl;
 
 import com.dao.UserLoginDao;
-import com.entrty.UserLogin;
+import com.entity.UserLogin;
 import com.service.userlogin.UserLoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author XJ

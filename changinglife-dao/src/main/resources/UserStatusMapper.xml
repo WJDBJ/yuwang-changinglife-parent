@@ -6,5 +6,9 @@
     <insert id="insert">
         insert into user_status(status_ids, user_ids) values(#{statusIds},#{userIds})
     </insert>
+    <select id="getStatus" resultType="com.entity.Status">
+        select s.* from status s join user_status us on s.status_id = us.status_ids
+        where us.user_ids = #{userId}
+    </select>
 
 </mapper>

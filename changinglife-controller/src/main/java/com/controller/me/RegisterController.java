@@ -1,15 +1,15 @@
 package com.controller.me;
 
-import com.entrty.UserInfo;
-import com.entrty.UserLogin;
-import com.entrty.UserStatus;
+import com.entity.UserInfo;
+import com.entity.UserLogin;
+import com.entity.UserStatus;
 import com.service.logininfo.LoginInfoService;
 import com.service.userlogin.UserLoginService;
 import com.service.userstatus.UserStatusService;
+import com.util.CopyUtil;
 import com.vo.UserInfoVO;
 import com.vo.UserLoginVO;
 import org.apache.commons.lang.RandomStringUtils;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -59,8 +59,8 @@ public class RegisterController {
         System.out.println("filename = " + filename);
         userLoginVO.setLoginId(filename);
         //获得UserLogin的对象
-        UserLogin userLogin = (UserLogin) copy(userLoginVO,UserLogin.class);
-        UserInfo userInfo = (UserInfo) copy
+        UserLogin userLogin = (UserLogin) CopyUtil.copy(userLoginVO,UserLogin.class);
+        UserInfo userInfo = (UserInfo) CopyUtil.copy
                 (UserInfoVO.newBuilder().infoName(userLoginVO.getLoginName()).
                         infoImg("/static/images/1.png").infoDesc("用户没有什么要说的")
                         .loginUid(filename).build(),UserInfo.class);
@@ -83,18 +83,5 @@ public class RegisterController {
             }
         }
         return modelAndView;
-    }
-
-    public Object copy(Object object,Class<?> clz) {
-        Object result = null;
-        try {
-            result = clz.newInstance();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        }
-        BeanUtils.copyProperties(object,result);
-        return result;
     }
 }

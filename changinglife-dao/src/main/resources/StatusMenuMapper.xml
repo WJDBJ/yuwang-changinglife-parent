@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.StatusMenuDao">
+    <insert id="insertPrivilege">
+        <foreach collection="privileges" item="privilege" separator=";">
+            insert into status_menu(s_id, m_id) values(#{statusId},#{privilege.menuId})
+        </foreach>
+    </insert>
+    <delete id="deletePrivilege">
+        delete from status_menu where s_id = #{statusId}
+    </delete>
+
+    <select id="getPrivilege" resultType="com.entity.Menu">
+        select m.* from menu m,status_menu sm
+        where sm.m_id = m.menu_id and sm.s_id = #{statusId}
+    </select>
+</mapper>

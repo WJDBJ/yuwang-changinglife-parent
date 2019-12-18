@@ -1,7 +1,7 @@
 package com.service.logininfo;
 
-import com.entrty.UserInfo;
-import com.entrty.UserLogin;
+import com.entity.UserInfo;
+import com.entity.UserLogin;
 
 /**
  * @author XJ

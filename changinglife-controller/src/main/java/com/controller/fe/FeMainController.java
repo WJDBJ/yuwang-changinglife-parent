@@ -1,6 +1,6 @@
 package com.controller.fe;
 
-import com.entrty.UserInfo;
+import com.entity.UserInfo;
 import com.service.userinfo.UserInfoService;
 import com.vo.ResponseVO;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ import javax.servlet.http.HttpSession;
  */
 @Controller
 @RequestMapping("/feMain")
-public class MainController {
+public class FeMainController {
     @Autowired
     private UserInfoService userInfoService;
 

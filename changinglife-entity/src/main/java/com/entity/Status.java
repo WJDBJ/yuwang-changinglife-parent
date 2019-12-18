@@ -1,4 +1,4 @@
-package com.entrty;
+package com.entity;
 
 import lombok.Data;
 
@@ -9,4 +9,5 @@ import lombok.Data;
 public class Status {
     private int statusId;
     private String statusName;
+    private String statusDescription;
 }

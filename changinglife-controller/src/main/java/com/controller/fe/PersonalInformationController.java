@@ -1,8 +1,10 @@
 package com.controller.fe;
 
-import com.entrty.UserInfo;
+import com.entity.UserInfo;
 import com.service.userinfo.UserInfoService;
 import com.vo.ResponseVO;
+import com.vo.UserInfoVO;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -65,10 +67,26 @@ public class PersonalInformationController {
             myFile.transferTo(file);
             userInfoService.infoUpdate(userInfo);
         } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println("e = " + e);
             return ResponseVO.newBuilder().msg("上传失败！").build();
         }
         return ResponseVO.newBuilder().msg("上传成功！").build();
+    }
+
+    /**
+     * 修改个人信息
+     * @param userInfoVO
+     * @return
+     */
+    @RequestMapping("/modify")
+    @ResponseBody
+    public ResponseVO modify(UserInfoVO userInfoVO,HttpSession httpSession) {
+        UserInfo userInfo = userInfoService.infoGetById(String.valueOf(httpSession.getAttribute("Id")));
+        BeanUtils.copyProperties(userInfoVO,userInfo);
+        try {
+            userInfoService.infoUpdate(userInfo);
+        }catch (Exception e) {
+            return ResponseVO.newBuilder().msg("修改失败！").build();
+        }
+        return ResponseVO.newBuilder().msg("修改成功！").build();
     }
 }

@@ -1,6 +1,6 @@
 package com.service.userinfo;
 
-import com.entrty.UserInfo;
+import com.entity.UserInfo;
 
 /**
  * @author XJ

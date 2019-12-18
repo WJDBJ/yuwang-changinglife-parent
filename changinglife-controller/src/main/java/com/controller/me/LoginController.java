@@ -1,6 +1,6 @@
 package com.controller.me;
 
-import com.entrty.UserLogin;
+import com.entity.UserLogin;
 import com.service.loginstatus.LoginStatusService;
 import com.service.userlogin.UserLoginService;
 import com.vo.UserLoginVO;

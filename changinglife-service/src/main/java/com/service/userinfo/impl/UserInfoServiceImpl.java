@@ -1,7 +1,7 @@
 package com.service.userinfo.impl;
 
 import com.dao.UserInfoDao;
-import com.entrty.UserInfo;
+import com.entity.UserInfo;
 import com.service.userinfo.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

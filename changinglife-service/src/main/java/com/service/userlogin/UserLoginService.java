@@ -1,6 +1,6 @@
 package com.service.userlogin;
 
-import com.entrty.UserLogin;
+import com.entity.UserLogin;
 
 /**
  * @author XJ

@@ -2,8 +2,8 @@ package com.service.logininfo.impl;
 
 import com.dao.UserInfoDao;
 import com.dao.UserLoginDao;
-import com.entrty.UserInfo;
-import com.entrty.UserLogin;
+import com.entity.UserInfo;
+import com.entity.UserLogin;
 import com.service.logininfo.LoginInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

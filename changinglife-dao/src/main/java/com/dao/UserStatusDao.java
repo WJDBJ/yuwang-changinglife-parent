@@ -1,6 +1,7 @@
 package com.dao;
 
-import com.entrty.UserStatus;
+import com.entity.Status;
+import com.entity.UserStatus;
 
 /**
  * @author XJ
@@ -12,4 +13,11 @@ public interface UserStatusDao {
      * @return
      */
     int insert(UserStatus userStatus);
+
+    /**
+     * 通过用户id来查询用户所对应的身份
+     * @param userId
+     * @return
+     */
+    Status getStatus(String userId);
 }

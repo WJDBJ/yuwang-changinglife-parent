@@ -18,23 +18,25 @@
     <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="/static/css/font.css">
     <link rel="stylesheet" href="/static/css/xadmin.css">
-
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/lib/layui/layui.js" charset="utf-8"></script>
     <script type="text/javascript" src="/static/js/xadmin.js"></script>
     <script type="text/javascript">
         $(function () {
-            const obj = {"name":'${userId}'};
-            $.getJSON("/userInfo/getName",obj,function(data){
+            id = '${userId}';
+            const obj = {"name":id};
+            $.getJSON("/feMain/getName",obj,function(data){
                 if(data.code == "200") {
                     console.log(data.msg);
-                    $("#user").next().text("欢迎您，管理员 : " + data.data.infoName);
+                    $("#user").text("欢迎您，管理员 : " + data.data.infoName);
                 }else if(data.code == "500") {
                     console.log(data.msg);
                 }
             });
         });
     </script>
+
 </head>
 <body>
 <!-- 顶部开始 -->
@@ -59,10 +61,11 @@
 <div class="left-nav">
     <div id="side-nav">
         <ul id="nav">
-            <li>
+            <div id="hideDiv">
+            <li id="mainLi">
                 <a href="javascript:;">
                     <i class="iconfont">&#xe726;</i>
-                    <cite>用户管理</cite>
+                    <cite class="header" >用户管理</cite>
                     <i class="iconfont nav_right">&#xe6a7;</i>
                 </a>
                 <ul class="sub-menu">
@@ -80,50 +83,7 @@
                     </li >
                 </ul>
             </li>
-            <li>
-                <a href="javascript:;">
-                    <i class="iconfont">&#xe6b8;</i>
-                    <cite>电影管理</cite>
-                    <i class="iconfont nav_right">&#xe6a7;</i>
-                </a>
-                <ul class="sub-menu">
-                    <li>
-                        <a _href="#">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>电影列表</cite>
-
-                        </a>
-                    </li >
-                    <li>
-                        <a _href="#">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>电影类别管理</cite>
-
-                        </a>
-                    </li>
-                    <li>
-                        <a _href="#">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>电影年份管理</cite>
-
-                        </a>
-                    </li>
-                    <li>
-                        <a _href="#">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>电影地区管理</cite>
-
-                        </a>
-                    </li>
-                    <li>
-                        <a _href="#">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>信息类别管理</cite>
-
-                        </a>
-                    </li>
-                </ul>
-            </li>
+            </div>
         </ul>
     </div>
 </div>
@@ -137,7 +97,7 @@
         </ul>
         <div class="layui-tab-content">
             <div class="layui-tab-item layui-show">
-                <iframe src='' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
+                <iframe src='/beMain/error' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
             </div>
         </div>
     </div>
@@ -150,5 +110,6 @@
     <div class="copyright">Copyright ©2019 L-admin v2.3 All Rights Reserved</div>
 </div>-->
 <!-- 底部结束 -->
+<script src="/static/js/be/admin.js" type="text/javascript"></script>
 </body>
 </html>

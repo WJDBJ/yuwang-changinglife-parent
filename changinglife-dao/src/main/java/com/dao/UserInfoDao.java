@@ -1,6 +1,6 @@
 package com.dao;
 
-import com.entrty.UserInfo;
+import com.entity.UserInfo;
 
 /**
  * @author XJ

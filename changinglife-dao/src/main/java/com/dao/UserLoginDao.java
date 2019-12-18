@@ -1,6 +1,6 @@
 package com.dao;
 
-import com.entrty.UserLogin;
+import com.entity.UserLogin;
 
 /**
  * @author XJ

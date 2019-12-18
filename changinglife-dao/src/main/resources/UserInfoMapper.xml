@@ -20,7 +20,7 @@
         info_desc = #{infoDesc} where login_uid = #{loginUid}
     </update>
 
-    <select id="infoGetById" resultType="com.entrty.UserInfo">
+    <select id="infoGetById" resultType="com.entity.UserInfo">
         select info_id, info_name, info_gender, info_birthday, info_email,
         info_address, info_age, info_img, info_desc, login_uid
         from userinfo where login_uid = #{uid}

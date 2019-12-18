@@ -22,13 +22,13 @@
 
 <div class="form" style="position:relative">
     <c:if test="${!empty msg}">
-        <div style="height: 100px; width: 100%; background-color: red;color: white">
+        <div style="height: 50px; width: 100%; background-color: red;color: white;text-align: center">
             <h3>${msg}</h3>
         </div>
     </c:if>
     <!--注册表单-->
     <div class="form_register" style="position:absolute">
-        <form action="/loginInfo/inRegister">
+        <form action="/register/inRegister">
             <h1>注册</h1>
             <div class="form_item">
                 <label for="username">用户名：</label>
