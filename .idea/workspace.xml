@@ -6,87 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf9d81af-d97c-4fa4-8ba3-01d0ea7c8c01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/be/BeMainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/be/privilege/PrivilegeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/be/privilege/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/vo/StatusVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/bootstrapStyle/bootstrapStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/bootstrapStyle/img/bootstrap.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/bootstrapStyle/img/bootstrap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/bootstrapStyle/img/line_conn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/bootstrapStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/be/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/be/role.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/fe/userInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/ztree/jquery.ztree.core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/ztree/jquery.ztree.excheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/role/role.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/MenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/StatusDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/StatusMenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/MenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/StatusMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/StatusMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entity/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/menu/MenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/menu/impl/MenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/status/StatusService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/status/impl/StatusServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/statusmenu/StatusMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/statusmenu/impl/StatusMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-util/src/main/java/com/util/CopyUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a28276dd-d56d-474e-8c48-7f6efeb576d5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a28276dd-d56d-474e-8c48-7f6efeb576d5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/FeMainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/PersonalInformationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/PersonalInformationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/me/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/me/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/me/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/me/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/MyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/classes/com/controller/UserInfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/classes/com/controller/UserLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/classes/config/MyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/classes/config/MyConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-entity-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/view/me/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/view/me/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/classes/com/controller/UserInfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/classes/com/controller/UserLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/classes/config/MyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/classes/config/MyConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/userInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/UserInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/UserInfoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/UserLoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/UserLoginDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/UserStatusDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/UserStatusDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/resources/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/resources/UserStatusMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/UserStatusMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-dao/target/classes/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/target/classes/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-dao/target/classes/com/dao/UserInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/target/classes/com/dao/UserInfoDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-dao/target/classes/com/dao/UserLoginDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/target/classes/com/dao/UserLoginDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entrty/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entity/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entrty/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entity/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entrty/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entity/UserLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entrty/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entity/UserStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-entity/target/classes/com/entrty/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-entity/target/classes/com/entrty/UserLogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/logininfo/LoginInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/logininfo/LoginInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/logininfo/impl/LoginInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/logininfo/impl/LoginInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userinfo/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userinfo/UserInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userinfo/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userinfo/impl/UserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userlogin/UserLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userlogin/UserLoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userlogin/impl/UserLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userlogin/impl/UserLoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userstatus/UserStatusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userstatus/UserStatusService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userstatus/impl/UserStatusServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/userstatus/impl/UserStatusServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/logininfo/LoginInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/logininfo/LoginInfoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/logininfo/impl/LoginInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/logininfo/impl/LoginInfoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userinfo/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userinfo/UserInfoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userinfo/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userinfo/impl/UserInfoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userlogin/UserLoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userlogin/UserLoginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userlogin/impl/UserLoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/target/classes/com/service/userlogin/impl/UserLoginServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-util/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf9d81af-d97c-4fa4-8ba3-01d0ea7c8c01" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -348,6 +268,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
@@ -407,7 +332,7 @@
       <workItem from="1576494432194" duration="2597000" />
       <workItem from="1576497051450" duration="2987000" />
       <workItem from="1576546232791" duration="15482000" />
-      <workItem from="1576628983328" duration="26442000" />
+      <workItem from="1576628983328" duration="26700000" />
     </task>
     <task id="LOCAL-00001" summary="第1.1次提交">
       <created>1575361266087</created>
@@ -451,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576498383555</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="第1.7次提交">
+      <created>1576676115500</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576676115500</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +410,8 @@
     <MESSAGE value="第1.4次提交" />
     <MESSAGE value="第1.5次提交" />
     <MESSAGE value="第1.6次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第1.6次提交" />
+    <MESSAGE value="第1.7次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第1.7次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="42" key="#Project_Structure" timestamp="1575286667057">
@@ -505,10 +438,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="216" y="309" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1575269784833" />
-    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1576676061339">
+    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1576676102449">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1576676061339" />
+    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1576676102449" />
     <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1575342188285">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
