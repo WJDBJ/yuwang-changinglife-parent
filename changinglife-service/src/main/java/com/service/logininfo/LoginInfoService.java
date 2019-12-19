@@ -13,4 +13,6 @@ public interface LoginInfoService {
      * @param userInfo
      */
     void loginInfo(UserLogin userLogin, UserInfo userInfo);
+
+
 }

@@ -109,7 +109,7 @@
             </div>
         </form>
         <div class="layui-col-sm12 layui-col-md12" style="text-align:center;font-size: 14px;margin-bottom: 20px;">
-            没有账号？立刻<a href="/loginInfo/register" style="color: crimson;margin-left: 3px;">注册</a></div>
+            没有账号？立刻<a href="/register/register" style="color: crimson;margin-left: 3px;">注册</a></div>
     </div>
 </div>
 <!-- LoginForm End -->

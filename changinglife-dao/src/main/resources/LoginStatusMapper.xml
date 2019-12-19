@@ -5,6 +5,14 @@
 <mapper namespace="com.dao.LoginStatusDao">
 
     <select id="getId" resultType="java.lang.Integer">
-        select status_ids from user_status where user_ids = #{loginId}
+        select count(*) from user_status where user_ids = #{loginId}
+    </select>
+
+    <select id="getAllAdmin" resultType="com.entity.LoginStatus">
+        select u.login_id, u.login_accoun, u.login_password,s.status_name
+        from userlogin u,user_status us,status s
+        where u.login_id = us.user_ids
+        and s.status_id = us.status_ids
+        and s.status_name not in ('VIP用户','UP主','用户')
     </select>
 </mapper>

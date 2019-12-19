@@ -31,6 +31,12 @@ public interface StatusService {
     int getCount(String statusName);
 
     /**
+     * 查询全部管理权限
+     * @return
+     */
+    List<Status> getAdmin();
+
+    /**
      * 查询身份信息
      * @param pageNum
      * @param pageSize

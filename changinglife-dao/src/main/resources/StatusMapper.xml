@@ -16,4 +16,8 @@
     <select id="getCount" resultType="java.lang.Integer">
         select count(*) from status where status_name = #{statusName}
     </select>
+    <select id="getAdmin" resultType="com.entity.Status">
+        select status_id, status_name, status_description from status
+        where status_name not in ('VIP用户','UP主','用户')
+    </select>
 </mapper>

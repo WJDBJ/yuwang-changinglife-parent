@@ -32,7 +32,13 @@ public class StatusServiceImpl implements StatusService {
     }
 
     @Override
+    public List<Status> getAdmin() {
+        return statusDao.getAdmin();
+    }
+
+    @Override
     public List<Status> getAll(int pageNum, int pageSize) {
         return statusDao.getAll(pageNum,pageSize);
     }
+
 }

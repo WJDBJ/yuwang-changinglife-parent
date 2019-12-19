@@ -926,54 +926,31 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="234" parent="2" name="menu">
+    <table id="234" parent="2" name="identity">
+      <Comment>用户身份表</Comment>
+    </table>
+    <table id="235" parent="2" name="login_identity">
+      <Comment>用户身份关联表 </Comment>
+    </table>
+    <table id="236" parent="2" name="menu">
       <Comment>地址表</Comment>
     </table>
-    <table id="235" parent="2" name="status">
-      <Comment>身份表 </Comment>
+    <table id="237" parent="2" name="status">
+      <Comment>权限身份表</Comment>
     </table>
-    <table id="236" parent="2" name="status_menu">
+    <table id="238" parent="2" name="status_menu">
       <Comment>身份地址表</Comment>
     </table>
-    <table id="237" parent="2" name="user_status">
-      <Comment>身份用户连接表 </Comment>
+    <table id="239" parent="2" name="user_status">
+      <Comment>权限身份关联表 </Comment>
     </table>
-    <table id="238" parent="2" name="userinfo">
+    <table id="240" parent="2" name="userinfo">
       <Comment>用户信息 </Comment>
     </table>
-    <table id="239" parent="2" name="userlogin">
+    <table id="241" parent="2" name="userlogin">
       <Comment>用户登录 </Comment>
     </table>
-    <column id="240" parent="234" name="menu_id">
-      <Position>1</Position>
-      <DataType>varchar(20)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-      <Collation>utf8_general_ci</Collation>
-    </column>
-    <column id="241" parent="234" name="menu_name">
-      <Position>2</Position>
-      <DataType>varchar(20)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-      <Collation>utf8_general_ci</Collation>
-    </column>
-    <column id="242" parent="234" name="menu_pid">
-      <Position>3</Position>
-      <DataType>int(11)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="243" parent="234" name="menu_url">
-      <Position>4</Position>
-      <DataType>varchar(100)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-      <Collation>utf8_general_ci</Collation>
-    </column>
-    <key id="244" parent="234" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>menu_id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="245" parent="235" name="status_id">
+    <column id="242" parent="234" name="identity_id">
       <Position>1</Position>
       <Comment>身份编号</Comment>
       <DataType>int(11)|0s</DataType>
@@ -981,52 +958,26 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="246" parent="235" name="status_name">
+    <column id="243" parent="234" name="identity_name">
       <Position>2</Position>
       <Comment>身份</Comment>
       <DataType>varchar(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="247" parent="235" name="status_description">
-      <Position>3</Position>
-      <Comment>身份备注</Comment>
-      <DataType>varchar(20)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-      <Collation>utf8_general_ci</Collation>
-    </column>
-    <key id="248" parent="235" name="PRIMARY">
+    <key id="244" parent="234" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>status_id</ColNames>
+      <ColNames>identity_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="249" parent="236" name="s_id">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="250" parent="236" name="m_id">
-      <Position>2</Position>
-      <DataType>varchar(20)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-      <Collation>utf8_general_ci</Collation>
-    </column>
-    <key id="251" parent="236" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>s_id
-m_id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="252" parent="237" name="status_ids">
+    <column id="245" parent="235" name="identity_ids">
       <Position>1</Position>
       <Comment>用户身份</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="253" parent="237" name="user_ids">
+    <column id="246" parent="235" name="user_ids">
       <Position>2</Position>
       <Comment>用户编码</Comment>
       <DataType>varchar(11)|0s</DataType>
@@ -1034,13 +985,109 @@ m_id</ColNames>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <key id="254" parent="237" name="PRIMARY">
+    <key id="247" parent="235" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>identity_ids
+user_ids</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="248" parent="236" name="menu_id">
+      <Position>1</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <column id="249" parent="236" name="menu_name">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <column id="250" parent="236" name="menu_pid">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="251" parent="236" name="menu_url">
+      <Position>4</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <key id="252" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>menu_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="253" parent="237" name="status_id">
+      <Position>1</Position>
+      <Comment>身份编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="254" parent="237" name="status_name">
+      <Position>2</Position>
+      <Comment>身份</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <column id="255" parent="237" name="status_description">
+      <Position>3</Position>
+      <Comment>身份备注</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <key id="256" parent="237" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>status_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="257" parent="238" name="s_id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="258" parent="238" name="m_id">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <key id="259" parent="238" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>s_id
+m_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="260" parent="239" name="status_ids">
+      <Position>1</Position>
+      <Comment>用户身份</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="261" parent="239" name="user_ids">
+      <Position>2</Position>
+      <Comment>用户编码</Comment>
+      <DataType>varchar(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_general_ci</Collation>
+    </column>
+    <key id="262" parent="239" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>status_ids
 user_ids</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="255" parent="238" name="info_id">
+    <column id="263" parent="240" name="info_id">
       <Position>1</Position>
       <Comment>信息主键</Comment>
       <DataType>int(11)|0s</DataType>
@@ -1048,73 +1095,73 @@ user_ids</ColNames>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="256" parent="238" name="info_name">
+    <column id="264" parent="240" name="info_name">
       <Position>2</Position>
       <Comment>用户姓名</Comment>
       <DataType>varchar(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="257" parent="238" name="info_gender">
+    <column id="265" parent="240" name="info_gender">
       <Position>3</Position>
       <Comment>性别</Comment>
       <DataType>varchar(1)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="258" parent="238" name="info_birthday">
+    <column id="266" parent="240" name="info_birthday">
       <Position>4</Position>
       <Comment>出生日期</Comment>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="259" parent="238" name="info_email">
+    <column id="267" parent="240" name="info_email">
       <Position>5</Position>
       <Comment>邮箱</Comment>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="260" parent="238" name="info_address">
+    <column id="268" parent="240" name="info_address">
       <Position>6</Position>
       <Comment>联系地址</Comment>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="261" parent="238" name="info_age">
+    <column id="269" parent="240" name="info_age">
       <Position>7</Position>
       <Comment>年龄</Comment>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="262" parent="238" name="info_img">
+    <column id="270" parent="240" name="info_img">
       <Position>8</Position>
       <Comment>头像</Comment>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="263" parent="238" name="info_desc">
+    <column id="271" parent="240" name="info_desc">
       <Position>9</Position>
       <Comment>个人简介</Comment>
       <DataType>varchar(300)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="264" parent="238" name="login_uid">
+    <column id="272" parent="240" name="login_uid">
       <Position>10</Position>
       <Comment>关联用户账号密码表 关联用户登录表</Comment>
       <DataType>varchar(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <key id="265" parent="238" name="PRIMARY">
+    <key id="273" parent="240" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>info_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="266" parent="239" name="login_id">
+    <column id="274" parent="241" name="login_id">
       <Position>1</Position>
       <Comment>登录ID 用于关联用户账号</Comment>
       <DataType>varchar(11)|0s</DataType>
@@ -1122,21 +1169,21 @@ user_ids</ColNames>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="267" parent="239" name="login_accoun">
+    <column id="275" parent="241" name="login_accoun">
       <Position>2</Position>
       <Comment>用户账号 用户的登录账号（一般为手机号）</Comment>
       <DataType>varchar(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="268" parent="239" name="login_password">
+    <column id="276" parent="241" name="login_password">
       <Position>3</Position>
       <Comment>用户密码 用户的登录密码</Comment>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <key id="269" parent="239" name="PRIMARY">
+    <key id="277" parent="241" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>login_id</ColNames>
       <Primary>1</Primary>

@@ -1,6 +1,9 @@
 package com.service.userinfo;
 
 import com.entity.UserInfo;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
  * @author XJ
@@ -19,4 +22,12 @@ public interface UserInfoService {
      * @return
      */
     UserInfo infoGetById(String uid);
+
+    /**
+     * 查询全部用户信息
+     * @param pageNum
+     * @param pageSize
+     * @return
+     */
+    List<UserInfo> getAllUser(@Param("pageNum")int pageNum, @Param("pageSize")int pageSize);
 }

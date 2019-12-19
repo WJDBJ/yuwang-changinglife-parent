@@ -37,4 +37,10 @@ public interface StatusDao {
      * @return
      */
     List<Status> getAll(@Param("pageNum")int pageNum,@Param("pageSize")int pageSize);
+
+    /**
+     * 查询全部管理权限
+     * @return
+     */
+    List<Status> getAdmin();
 }

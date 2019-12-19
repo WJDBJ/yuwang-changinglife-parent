@@ -27,8 +27,6 @@ public class RegisterController {
     private UserLoginService userLoginService;
     @Autowired
     private LoginInfoService loginInfoService;
-    @Autowired
-    private UserStatusService userStatusService;
 
     /**
      * 注册界面
@@ -56,7 +54,6 @@ public class RegisterController {
                 break;
             }
         }
-        System.out.println("filename = " + filename);
         userLoginVO.setLoginId(filename);
         //获得UserLogin的对象
         UserLogin userLogin = (UserLogin) CopyUtil.copy(userLoginVO,UserLogin.class);
@@ -71,11 +68,6 @@ public class RegisterController {
         }else {
             try {
                 loginInfoService.loginInfo(userLogin,userInfo);
-                //添加用户后给用户添加权限
-                UserStatus userStatus = new UserStatus();
-                userStatus.setStatusIds(3);
-                userStatus.setUserIds(filename);
-                userStatusService.insert(userStatus);
                 modelAndView.setViewName("me/userLogin");
             }catch (Exception e) {
                 modelAndView.setViewName("me/register");

@@ -1,8 +1,10 @@
 package com.controller.me;
 
 import com.entity.UserLogin;
+import com.service.loginidentity.LoginIdentityService;
 import com.service.loginstatus.LoginStatusService;
 import com.service.userlogin.UserLoginService;
+import com.util.CopyUtil;
 import com.vo.UserLoginVO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +24,8 @@ public class LoginController {
     private UserLoginService userLoginService;
     @Autowired
     private LoginStatusService loginStatusService;
+    @Autowired
+    private LoginIdentityService loginIdentityService;
 
     /**
      * 去往登录界面
@@ -33,28 +37,23 @@ public class LoginController {
     }
 
     /**
-     * 进行登录的操作，1.管理者界面，3.用户界面
+     * 进行登录的操作
      * @param userLoginVO
      * @return
      */
     @RequestMapping("/inLogin")
     public ModelAndView inLogin(UserLoginVO userLoginVO) {
         ModelAndView modelAndView = new ModelAndView();
-        UserLogin userLogin = new UserLogin();
-        BeanUtils.copyProperties(userLoginVO,userLogin);
+        UserLogin userLogin = (UserLogin) CopyUtil.copy(userLoginVO,UserLogin.class);
         String userId = userLoginService.loginGetId(userLogin);
         if(userLoginService.loginGetById(userLogin) > 0) {
             modelAndView.addObject("userId",userId);
-            switch (loginStatusService.getId(userId)) {
-                case 1:{
-                    modelAndView.setViewName("be/admin");
-                }break;
-                case 3:{
-                    modelAndView.setViewName("fe/user");
-                }break;
-                default:{
-                    modelAndView.setViewName("error");
-                }break;
+            if(loginStatusService.getId(userId)>0){
+                modelAndView.setViewName("be/admin");
+            } else if(loginIdentityService.getId(userId)>0){
+                modelAndView.setViewName("fe/user");
+            }else {
+                modelAndView.setViewName("error");
             }
         } else {
             modelAndView.addObject("Login", userLoginVO);

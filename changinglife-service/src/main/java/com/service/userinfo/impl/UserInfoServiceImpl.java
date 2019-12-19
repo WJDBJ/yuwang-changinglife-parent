@@ -6,6 +6,8 @@ import com.service.userinfo.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * @author XJ
  */
@@ -33,5 +35,10 @@ public class UserInfoServiceImpl implements UserInfoService {
     @Override
     public UserInfo infoGetById(String uid) {
         return userInfoDao.infoGetById(uid);
+    }
+
+    @Override
+    public List<UserInfo> getAllUser(int pageNum, int pageSize) {
+        return userInfoDao.getAllUser(pageNum,pageSize);
     }
 }
