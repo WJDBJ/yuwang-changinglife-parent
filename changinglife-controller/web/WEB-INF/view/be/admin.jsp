@@ -25,15 +25,6 @@
     <script type="text/javascript">
         $(function () {
             id = '${userId}';
-            const obj = {"name":id};
-            $.getJSON("/feMain/getName",obj,function(data){
-                if(data.code == "200") {
-                    console.log(data.msg);
-                    $("#user").text("欢迎您，管理员 : " + data.data.infoName);
-                }else if(data.code == "500") {
-                    console.log(data.msg);
-                }
-            });
         });
     </script>
 
@@ -47,7 +38,7 @@
     </div>
     <ul class="layui-nav right" lay-filter="">
         <li class="layui-nav-item">
-            <a id = "user" href="javascript:;"></a>
+            <a id = "user" href="javascript:;">${userId}</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
                 <dd><a href="/login/login">退出</a></dd>
             </dl>

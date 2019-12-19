@@ -24,4 +24,9 @@ public class UserStatusServiceImpl implements UserStatusService {
     public Status getStatus(String userId) {
         return userStatusDao.getStatus(userId);
     }
+
+    @Override
+    public int getCount(int statusId) {
+        return userStatusDao.getCount(statusId);
+    }
 }

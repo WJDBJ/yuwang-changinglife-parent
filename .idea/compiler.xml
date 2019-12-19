@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="changinglife-util" />
-        <module name="changinglife-dao" />
+        <module name="changinglife-controller" />
         <module name="changinglife-service" />
         <module name="changinglife-entity" />
-        <module name="changinglife-controller" />
+        <module name="changinglife-dao" />
       </profile>
     </annotationProcessing>
   </component>

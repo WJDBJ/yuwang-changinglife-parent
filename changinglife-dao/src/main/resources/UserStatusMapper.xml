@@ -10,5 +10,8 @@
         select s.* from status s join user_status us on s.status_id = us.status_ids
         where us.user_ids = #{userId}
     </select>
+    <select id="getCount" resultType="java.lang.Integer">
+        select count(*) from user_status where status_ids = #{statusId}
+    </select>
 
 </mapper>

@@ -31,7 +31,7 @@
                 if(data.code == "200") {
                     console.log(data.msg);
                     $("#img").next().text(data.data.infoName);
-                    $("#img").attr("src",data.data.infoImg)
+                    $("#img").attr("src",data.data.infoImg+"?t="+Math.random())
                 }else if(data.code == "500") {
                     console.log(data.msg);
                 }

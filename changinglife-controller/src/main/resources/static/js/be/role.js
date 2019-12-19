@@ -7,20 +7,18 @@ $(function () {
             "/role/roleAdd",
             {"statusName":status_name,"statusDescription":status_dosc},
             function (result) {
-                location.href="/role/inRole";
                 $(".alert").text(result.msg);
                 $(".alert").show();
             }
         );
     });
 
-    $("#deleteA").click(function () {
-        const status_id = $("#deleteA").attr("data");
+    $(".deleteA").click(function () {
+        const status_id = $(this).attr("data");
         $.getJSON(
             "/role/roleDelete",
             {"statusId":status_id},
             function (result) {
-                location.href="/role/inRole";
                 $(".alert").text(result.msg);
                 $(".alert").show();
             }

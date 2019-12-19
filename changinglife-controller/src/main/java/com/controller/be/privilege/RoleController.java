@@ -3,6 +3,7 @@ package com.controller.be.privilege;
 import com.entity.Status;
 import com.github.pagehelper.PageInfo;
 import com.service.status.StatusService;
+import com.service.userstatus.UserStatusService;
 import com.util.CopyUtil;
 import com.vo.ResponseVO;
 import com.vo.StatusVO;
@@ -23,6 +24,8 @@ import java.util.List;
 public class RoleController {
     @Autowired
     private StatusService statusService;
+    @Autowired
+    private UserStatusService userStatusService;
 
     @RequestMapping("/roleAdd")
     @ResponseBody
@@ -32,7 +35,6 @@ public class RoleController {
             return ResponseVO.newBuilder().msg("已经有该身份，请勿重复添加").build();
         }
         try {
-
             statusService.insert(status);
         }catch (Exception e) {
             return ResponseVO.newBuilder().msg("添加失败").build();
@@ -55,6 +57,9 @@ public class RoleController {
     @RequestMapping("/roleDelete")
     @ResponseBody
     public ResponseVO roleDelete(int statusId){
+        if(userStatusService.getCount(statusId)>0){
+            return ResponseVO.newBuilder().msg("该身份已有用户归属，无法删除").build();
+        }
         try {
             statusService.delete(statusId);
         }catch (Exception e) {

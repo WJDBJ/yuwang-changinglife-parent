@@ -31,7 +31,7 @@ $(function() {
     });
 
     function result(data) {
-        alert(data.msg);
+        console.log(data.msg);
         $(".tailoring-container").toggle();
     }
 });

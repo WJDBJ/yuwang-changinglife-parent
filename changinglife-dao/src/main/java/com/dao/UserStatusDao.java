@@ -20,4 +20,11 @@ public interface UserStatusDao {
      * @return
      */
     Status getStatus(String userId);
+
+    /**
+     * 查询该身份有没有用户
+     * @param statusId
+     * @return
+     */
+    int getCount(int statusId);
 }

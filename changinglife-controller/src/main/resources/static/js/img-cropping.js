@@ -132,11 +132,11 @@ const picture_clipping_tool = function ($img) {
                             contentType: false,
                             processData: false,
                             success: function (result) {
-                                alert(result.msg + "1");
+                                console.log(result.msg);
                                 $(".tailoring-container").toggle();
                             },
                             error: function (data) {
-                                alert(data.msg + "失败");
+                                console.log(data.msg);
                                 $(".tailoring-container").toggle();
                             }
                         });

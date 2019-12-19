@@ -13,6 +13,5 @@
         from userlogin u,user_status us,status s
         where u.login_id = us.user_ids
         and s.status_id = us.status_ids
-        and s.status_name not in ('VIP用户','UP主','用户')
     </select>
 </mapper>

@@ -100,7 +100,7 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal -->
 </div>
-
+<script src="/static/js/be/admins.js"></script>
 </body>
 </html>
 

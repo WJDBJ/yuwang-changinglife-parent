@@ -10,7 +10,7 @@
         info_age, info_img, info_desc, login_uid)
         values
         (#{infoName},#{infoGender},#{infoBirthday},#{infoEmail},#{infoAddress},
-        #{infoAge}, #{ingoImg},#{infoDesc},#{loginUid})
+        #{infoAge}, #{infoImg},#{infoDesc},#{loginUid})
     </insert>
 
     <update id="infoUpdate">
@@ -26,12 +26,7 @@
         from userinfo where login_uid = #{uid}
     </select>
     <select id="getAllUser" resultType="com.entity.UserInfo">
-        select distinct u.* from userinfo u,
-                user_status us,
-                status s
-                where u.login_uid = us.user_ids
-                and us.status_ids = s.status_id
-                and s.status_name in ('VIP用户','UP主','用户')
+        select distinct u.* from userinfo u
                 order by info_id
     </select>
 </mapper>

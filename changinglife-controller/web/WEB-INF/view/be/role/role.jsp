@@ -56,7 +56,7 @@
                 <td class="td-manage">
                     <button class="privilegeA layui-btn layui-btn-sm layui-btn-danger" data-toggle="modal"
                             data-target="#myModal_privilege" data="${l.statusId}">授权</button>
-                    <button id="deleteA" class="layui-btn layui-btn-sm layui-btn-danger" data="${l.statusId}"> 删除</button>
+                    <button class="deleteA layui-btn layui-btn-sm layui-btn-danger" data="${l.statusId}">删除</button>
                 </td>
             </tr>
         </c:forEach>
