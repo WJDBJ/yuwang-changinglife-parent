@@ -3,6 +3,16 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.dao.LoginStatusDao">
+    <insert id="addLoginStatus">
+        insert into user_status(status_ids, user_ids) values(#{statusId},#{loginId})
+    </insert>
+
+    <update id="updateLoginStatus">
+        update user_status set status_ids = #{statusId} where user_ids = #{loginId}
+    </update>
+    <delete id="deleteLoginStatus">
+        delete from user_status where user_ids = #{loginId}
+    </delete>
 
     <select id="getId" resultType="java.lang.Integer">
         select count(*) from user_status where user_ids = #{loginId}

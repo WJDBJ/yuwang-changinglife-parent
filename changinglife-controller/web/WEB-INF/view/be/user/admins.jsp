@@ -28,6 +28,7 @@
     <a class="layui-btn layui-btn-primary layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="javascript:location.replace(location.href);" title="刷新">
         <i class="layui-icon" style="line-height:38px">ဂ</i></a>
 </div>
+<br/>
 <div class="layui-row">
     <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal_insert">
         添加新的管理者
@@ -54,7 +55,13 @@
                 <td>${i.loginAccoun}</td>
                 <td>${i.loginPassword}</td>
                 <td>${i.statusName}</td>
-                <td></td>
+                <td>
+                    <c:if test="${i.statusName != '管理员'}">
+                        <button class="pr layui-btn layui-btn-sm layui-btn-danger" data-toggle="modal"
+                                data-target="#myModal_privilege" data="${i.loginId}">升级权限</button>
+                    </c:if>
+                    <button class="delete layui-btn layui-btn-sm layui-btn-danger" data="${i.loginId}">删除</button>
+                </td>
             </tr>
         </c:forEach>
         </tbody>
@@ -88,13 +95,44 @@
             <div class="modal-body">
                 用户账号：<input type="text" id="login_name" class="form-control"/><br/>
                 用户密码：<input type="text" id="login_pwd" class="form-control"/><br/>
-                用户身份：<select id="status_name"></select>
+                用户身份：<select class="status_name">
+                <option aria-checked="true">请选择</option>
+            </select>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">关闭
                 </button>
                 <button type="button" id="add" class="btn btn-primary" data-dismiss="modal">
                     确认添加
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+
+<!-- 授权的模态框（Modal） -->
+<div class="modal fade" id="myModal_privilege" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel_privilege">
+                    升级权限
+                </h4>
+            </div>
+            <div class="modal-body">
+                身份：<select class="status_name">
+                <option aria-checked="true">请选择</option>
+            </select>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                </button>
+                <button type="button" id="privilege" class="btn btn-primary" data-dismiss="modal">
+                    确认授权
                 </button>
             </div>
         </div><!-- /.modal-content -->

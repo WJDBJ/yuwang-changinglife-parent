@@ -18,6 +18,27 @@ public interface LoginStatusDao {
     int getId(String loginId);
 
     /**
+     * 修改用户身份
+     * @param loginStatus
+     * @return
+     */
+    int updateLoginStatus(LoginStatus loginStatus);
+
+    /***
+     * 删除身份关联
+     * @param loginId
+     * @return
+     */
+    int deleteLoginStatus(String loginId);
+
+    /**
+     * 添加管理员用户
+     * @param loginStatus
+     * @return
+     */
+    int addLoginStatus(LoginStatus loginStatus);
+
+    /**
      * 查询管理员
      * @param pageNum
      * @param pageSize

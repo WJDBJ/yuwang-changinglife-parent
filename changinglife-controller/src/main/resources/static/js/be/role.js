@@ -7,8 +7,11 @@ $(function () {
             "/role/roleAdd",
             {"statusName":status_name,"statusDescription":status_dosc},
             function (result) {
-                $(".alert").text(result.msg);
                 $(".alert").show();
+                window.setTimeout("window.location='/admin/inAdmin'",3000);
+                for (let i=3; i>0;i-- ){
+                    $(".alert").text(result.msg+"     页面将在"+i+"秒后刷新······");
+                }
             }
         );
     });
@@ -19,8 +22,11 @@ $(function () {
             "/role/roleDelete",
             {"statusId":status_id},
             function (result) {
-                $(".alert").text(result.msg);
                 $(".alert").show();
+                window.setTimeout("window.location='/admin/inAdmin'",3000);
+                for (let i=3; i>0;i-- ){
+                    $(".alert").text(result.msg+"     页面将在"+i+"秒后刷新······");
+                }
             }
         );
     });
@@ -62,8 +68,11 @@ $(function () {
             traditional: true,
             data: {"ids":getIdsFromCheckNodes(),"statusId":statusId},
             success: function (result) {
-                $(".alert").text(result.msg);
                 $(".alert").show();
+                window.setTimeout("window.location='/admin/inAdmin'",3000);
+                for (let i=3; i>0;i-- ){
+                    $(".alert").text(result.msg+"     页面将在"+i+"秒后刷新······");
+                }
             }
         });
     });

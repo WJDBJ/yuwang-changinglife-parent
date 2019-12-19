@@ -8,6 +8,9 @@
         values
         (#{loginId},#{loginAccoun},#{loginPassword})
     </insert>
+    <delete id="deleteLogin">
+        delete from userlogin where login_id = #{loginId}
+    </delete>
 
     <select id="loginGetById" resultType="java.lang.Integer">
         select count(*) from userlogin

@@ -17,6 +17,13 @@ public interface UserLoginDao {
     int loginGetById(UserLogin userLogin);
 
     /**
+     * 删除用户账号密码
+     * @param loginId
+     * @return
+     */
+    int deleteLogin(String loginId);
+
+    /**
      * 找出用户的ID
      * @param userLogin
      * @return
