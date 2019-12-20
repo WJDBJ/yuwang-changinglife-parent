@@ -10,4 +10,10 @@
     <select id="getId" resultType="java.lang.Integer">
         select count(*) from login_identity where user_ids = #{loginId}
     </select>
+    <select id="getIdentity" resultType="java.lang.Integer">
+        select count(*) from login_identity li,identity i
+        where i.identity_id = li.identity_ids
+        and i.identity_name = 'UP主'
+        and li.user_ids = #{loginId}
+    </select>
 </mapper>

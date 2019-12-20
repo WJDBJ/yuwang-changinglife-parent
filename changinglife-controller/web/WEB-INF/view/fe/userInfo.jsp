@@ -26,13 +26,13 @@
 <div class="media" style="background-image: url(/static/images/index.jpg)">
     <div class="media-left media-top">
         <div style="width: 320px;height: 320px;border: solid 1px #555;padding: 5px;margin-top: 10px">
-            <img id="finalImg" src="${userInfo.infoImg}" class="media-object" width="100%">
+            <img id="finalImg" src="/download?filename=${userInfo.infoImg}" class="media-object" width="100%">
         </div>
         <h2 class="media-heading" style="margin-top: 20px; margin-left: 30px; color: white">${userInfo.infoName}【${userInfo.loginUid}】</h2>
     </div>
     <div class="media-body">
         <button id="replaceImg" class="l-btn" style="margin-top: 50px;">更换图片</button>
-        <a href="/feMain/back" class="btn btn-primary" style="width: 100px;">'<<'返回主页
+        <a href="/feMain/back" class="btn btn-primary" style="width: 100px;">返回主页
         </a>
         <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
             修改个人信息

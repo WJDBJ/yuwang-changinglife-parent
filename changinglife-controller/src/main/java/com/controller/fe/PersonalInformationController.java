@@ -57,11 +57,9 @@ public class PersonalInformationController {
                         "\\changinglife-controller\\src\\main\\resources\\static\\images\\userImages";
         //得到上传过来的文件名
         String path = directory + File.separator + userId + ".jpg";
-        System.out.println("path = " + path);
         UserInfo userInfo = userInfoService.infoGetById(userId);
-        System.out.println("userInfo = " + userInfo);
-        userInfo.setInfoImg("/static/images/userImages/"+userId + ".jpg");
-        System.out.println("userInfo = " + userInfo);
+        System.out.println("userId = " + userId);
+        userInfo.setInfoImg(userId + ".jpg");
         File file = new File(path);
         try {
             myFile.transferTo(file);

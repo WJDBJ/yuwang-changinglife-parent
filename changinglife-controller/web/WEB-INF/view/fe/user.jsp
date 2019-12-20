@@ -24,23 +24,24 @@
             background-position: center 0;
         }
     </style>
-    <script type="text/javascript">
-        $(function () {
-            const obj = {"name":'${userId}'};
-            $.getJSON("/feMain/getName",obj,function(data){
-                if(data.code == "200") {
-                    console.log(data.msg);
-                    $("#img").next().text(data.data.infoName);
-                    $("#img").attr("src",data.data.infoImg+"?t="+Math.random())
-                }else if(data.code == "500") {
-                    console.log(data.msg);
-                }
-            });
-        });
-    </script>
 <%--    <script src="/static/js/user.js"></script>--%>
+<%--    //+"?t="+Math.random()    "/download?filename="+--%>
 </head>
 <body>
+<script type="text/javascript">
+    $(function () {
+        const obj = {"name":'${userId}'};
+        $.getJSON("/feMain/getName",obj,function(data){
+            if(data.code == "200") {
+                console.log(data.msg);
+                $("#img").next().text(data.data.infoName);
+                $("#img").attr("src","/download?filename="+data.data.infoImg)
+            }else if(data.code == "500") {
+                console.log(data.msg);
+            }
+        });
+    });
+</script>
 <nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header" style="margin-top: 10px;">
@@ -63,35 +64,38 @@
                         <li><a href="/login/login">退出登录</a></li>
                     </ul>
                 </li>
+                <ul class="nav nav-pills" style="float: left;  margin-top: 15px; padding-left: -10px;">
+                    <li><a href="#">会员</a></li>
+                </ul>
             </ul>
         </div>
     </div>
 </nav>
 <div>
     <div style="float: left">
-        <form action="#">
+        <form action="/video/inVideo" method="get">
             <input type="submit" style="height: 250px;width: 400px;text-align: center;font-size: 48px; margin-left: 250px;
 		    margin-top: 20px; background-image: url(/static/images/9.jpg);" class="btn  btn-lg web_bg" value=" "/>
-            <h3 style="margin-left: 400px;">视频专区</h3>
+            <h3 style="margin-left: 400px;"></h3>
         </form><!-- btn-info -->
     </div>
     <div>
         <form action="#">
             <input type="submit" style="height: 250px;width: 400px; text-align: center; font-size: 48px;margin-left: 100px;
-		    margin-top: 20px;" class="btn  btn-lg web_bg" value="开始答题"/>
-            <h3 style="margin-left: 900px;">音乐专区</h3>
+		    margin-top: 20px;" class="btn  btn-lg web_bg" value=""/>
+            <h3 style="margin-left: 900px;"></h3>
         </form>
     </div>
     <div style="float: left">
         <form action="#">
             <input type="submit" style="height: 250px;width: 400px;text-align: center;font-size: 48px;margin-left:250px;
-		    margin-top: 20px; float: left;" class="btn  btn-lg web_bg" value="开始答题"/>
+		    margin-top: 20px; float: left;" class="btn  btn-lg web_bg" value=""/>
         </form>
     </div>
     <div>
         <form action="#">
             <input type="submit" style="height: 250px;width: 400px;text-align: center;font-size: 48px;margin-left: 100px;
-		    margin-top: 20px;" class="btn btn-lg web_bg" value="开始答题"/>
+		    margin-top: 20px;" class="btn btn-lg web_bg" value=""/>
         </form>
     </div>
 </div>

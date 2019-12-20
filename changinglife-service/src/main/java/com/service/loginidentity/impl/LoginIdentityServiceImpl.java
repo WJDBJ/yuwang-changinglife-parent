@@ -17,4 +17,9 @@ public class LoginIdentityServiceImpl implements LoginIdentityService {
     public int getId(String loginId) {
         return loginIdentityDao.getId(loginId);
     }
+
+    @Override
+    public int getIdentity(String loginId) {
+        return loginIdentityDao.getIdentity(loginId);
+    }
 }

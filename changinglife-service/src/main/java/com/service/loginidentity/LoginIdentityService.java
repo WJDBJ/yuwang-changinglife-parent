@@ -12,4 +12,11 @@ public interface LoginIdentityService {
      * @return
      */
     int getId(String loginId);
+
+    /**
+     * 查询用户的身份
+     * @param loginId
+     * @return
+     */
+    int getIdentity(String loginId);
 }
