@@ -6,32 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf9d81af-d97c-4fa4-8ba3-01d0ea7c8c01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/video/ContributeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/video/VideoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/me/PhotoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/images/video.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/fe/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/video/contribute.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/video/video.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entity/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entity/VideoType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-entity/src/main/java/com/entity/VideoTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a28276dd-d56d-474e-8c48-7f6efeb576d5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a28276dd-d56d-474e-8c48-7f6efeb576d5.xml" afterDir="false" />
+    <list default="true" id="bf9d81af-d97c-4fa4-8ba3-01d0ea7c8c01" name="Default Changelist" comment="第1.7.2次提交,进行重新架构">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/PersonalInformationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/PersonalInformationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/images/userImages/bbb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/images/userImages/bbb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-entity-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/target/changinglife-controller-1.0-SNAPSHOT/WEB-INF/lib/changinglife-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/userInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/LoginIdentityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/LoginIdentityDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/resources/LoginIndentityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/LoginIndentityMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/loginidentity/LoginIdentityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/loginidentity/LoginIdentityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/loginidentity/impl/LoginIdentityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/loginidentity/impl/LoginIdentityServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,7 +323,7 @@
       <workItem from="1576758742073" duration="50000" />
       <workItem from="1576762434603" duration="1069000" />
       <workItem from="1576801736562" duration="9048000" />
-      <workItem from="1576812575515" duration="5433000" />
+      <workItem from="1576812575515" duration="6516000" />
     </task>
     <task id="LOCAL-00001" summary="第1.1次提交">
       <created>1575361266087</created>
@@ -433,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576758597573</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="第1.7.2次提交,进行重新架构">
+      <created>1576825116402</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576825116402</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +445,8 @@
     <MESSAGE value="第1.6次提交" />
     <MESSAGE value="第1.7次提交" />
     <MESSAGE value="第1.7.1次提交,进行重新架构" />
-    <option name="LAST_COMMIT_MESSAGE" value="第1.7.1次提交,进行重新架构" />
+    <MESSAGE value="第1.7.2次提交,进行重新架构" />
+    <option name="LAST_COMMIT_MESSAGE" value="第1.7.2次提交,进行重新架构" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="42" key="#Project_Structure" timestamp="1575286667057">
@@ -493,10 +477,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="216" y="309" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1575269784833" />
-    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1576758590635">
+    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1576826187867">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1576758590635" />
+    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1576826187867" />
     <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1575342188285">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -593,10 +577,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="503" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1576155303621" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1576758602043">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1576825122267">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1576758602043" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1576825122267" />
     <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog" timestamp="1576653917777">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
