@@ -1,2 +1,0 @@
-userLogin是用来登录系统的
-register是用来注册的

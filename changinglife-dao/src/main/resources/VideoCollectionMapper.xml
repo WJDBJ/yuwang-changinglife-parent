@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.VideoCollectionDao">
+
+    <insert id="addCollection">
+        insert into video_collection(vc_video, vc_login) values(#{videoId}.#{loginId})
+    </insert>
+    <delete id="deleteCollection">
+        delete from video_collection where vc_video = #{videoId}
+        and vc_login = #{loginId}
+    </delete>
+    <select id="collectionCount" resultType="java.lang.Integer">
+        select count(*) from video_collection where vc_video = #{videoId}
+        and vc_login = #{loginId}
+    </select>
+</mapper>
