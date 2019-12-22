@@ -9,8 +9,24 @@
         #{videoReleasetime},#{videoRublisher},#{videoIntroduction},#{videoAddress},
         #{videoAudit})
     </insert>
+    <update id="goAudit">
+        update video set video_audit = 'Y' where video_id = #{videoId}
+    </update>
+    <delete id="auditFailure">
+        delete from video where video_id = #{videoId}
+    </delete>
 
     <select id="videoCountId" resultType="java.lang.Integer">
         select count(*) from video where video_id = #{videoId}
      </select>
+    <select id="getAll" resultType="com.entity.Video">
+        select video_id, video_name, video_releasetime, video_rublisher,
+        video_introduction, video_address, video_audit from video order by video_releasetime
+    </select>
+    <select id="getAuditAll" resultType="com.entity.Video">
+        select video_id, video_name, video_releasetime, video_rublisher,
+        video_introduction, video_address, video_audit from video
+        where video_audit = 'N'
+        order by video_releasetime
+    </select>
 </mapper>

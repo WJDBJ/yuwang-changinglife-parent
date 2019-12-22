@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.VideoTypeDao">
+    <insert id="insertType">
+        insert into videotype(type_id, type_name, type_pid)
+        values(#{typeId},#{typeName},#{typePid})
+    </insert>
+    <delete id="deleteType">
+        delete from videotype where type_id = #{typeId}
+    </delete>
+
+    <select id="getAll" resultType="com.entity.VideoType">
+        select type_id, type_name, type_pid from videotype order by type_id
+    </select>
+    <select id="typeCount" resultType="java.lang.Integer">
+        select count(*) from  videotype where type_name = #{typeName}
+    </select>
+    <select id="getType" resultType="com.entity.VideoType">
+        select type_id, type_name, type_pid from videotype where type_pid = 0
+    </select>
+    <select id="countId" resultType="java.lang.Integer">
+        select count(*) from videotype where type_id = #{typeId}
+    </select>
+    <select id="getTypes" resultType="com.entity.VideoType">
+        select type_id, type_name, type_pid from videotype
+    </select>
+</mapper>

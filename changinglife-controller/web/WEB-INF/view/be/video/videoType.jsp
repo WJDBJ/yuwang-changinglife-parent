@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: XJ
-  Date: 2019/12/19
-  Time: 9:32
+  Date: 2019/12/22
+  Time: 12:50
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -39,10 +39,7 @@
         <thead>
         <tr>
             <th>序号</th>
-            <th>用户Id编号</th>
-            <th>用户账号</th>
-            <th>用户密码</th>
-            <th>用户身份</th>
+            <th>类型名</th>
             <th>操作</th>
         </tr>
         </thead>
@@ -50,16 +47,9 @@
         <c:forEach items="${info.list}" var="i" varStatus="v">
             <tr>
                 <td>${v.index+1}</td>
-                <td>${i.loginId}</td>
-                <td>${i.loginAccoun}</td>
-                <td>${i.loginPassword}</td>
-                <td>${i.statusName}</td>
+                <td>${i.typeName}</td>
                 <td>
-                    <c:if test="${i.statusName != '管理员'}">
-                        <button class="pr layui-btn layui-btn-sm layui-btn-danger" data-toggle="modal"
-                                data-target="#myModal_privilege" data="${i.loginId}">升级权限</button>
-                    </c:if>
-                    <button class="delete layui-btn layui-btn-sm layui-btn-danger" data="${i.loginId}">删除</button>
+                    <button class="delete layui-btn layui-btn-sm layui-btn-danger" data="${i.typeId}">删除</button>
                 </td>
             </tr>
         </c:forEach>
@@ -67,18 +57,17 @@
     </table>
     <div class="page">
         <div>
-            <a class="num" href="/admin/inAdmin?pageNum=1">首页</a>
-            <a class="num" href="/admin/inAdmin?pageNum=${info.prePage}">上一页</a>
+            <a class="num" href="/videoType/inVideoType?pageNum=1">首页</a>
+            <a class="num" href="/videoType/inVideoType?pageNum=${info.prePage}">上一页</a>
             <c:forEach items="${info.navigatepageNums}" var="n">
-                <a class="num" href="/admin/inAdmin?pageNum=${n}">${n}</a>
+                <a class="num" href="/videoType/inVideoType?pageNum=${n}">${n}</a>
             </c:forEach>
-            <a class="num" href="/admin/inAdmin?pageNum=${info.nextPage}">下一页</a>
-            <a class="num" href="/admin/inAdmin?pageNum=${info.pageSize}">尾页</a>
+            <a class="num" href="/videoType/inVideoType?pageNum=${info.nextPage}">下一页</a>
+            <a class="num" href="/videoType/inVideoType?pageNum=${info.pageSize}">尾页</a>
         </div>
     </div>
 
 </div>
-
 <!-- 添加的模态框（Modal） -->
 <div class="modal fade" id="myModal_insert" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -88,15 +77,14 @@
                     &times;
                 </button>
                 <h4 class="modal-title" id="myModalLabel">
-                    添加管理者
+                    添加类型
                 </h4>
             </div>
             <div class="modal-body">
-                用户账号：<input type="text" id="login_name" class="form-control"/><br/>
-                用户密码：<input type="text" id="login_pwd" class="form-control"/><br/>
-                用户身份：<select class="status_name">
-                <option aria-checked="true">请选择</option>
-            </select>
+                类型名称<input type="text" id="typeName"/><br/>
+                类型归属<select id="typePid">
+                    <option value="0">主类型</option>
+                </select>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">关闭
@@ -108,36 +96,7 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal -->
 </div>
-
-
-<!-- 授权的模态框（Modal） -->
-<div class="modal fade" id="myModal_privilege" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                    &times;
-                </button>
-                <h4 class="modal-title" id="myModalLabel_privilege">
-                    升级权限
-                </h4>
-            </div>
-            <div class="modal-body">
-                身份：<select class="status_name">
-                <option aria-checked="true">请选择</option>
-            </select>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-                <button type="button" id="privilege" class="btn btn-primary" data-dismiss="modal">
-                    确认授权
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-<script src="/static/js/be/admins.js"></script>
+<script src="/static/js/be/videoType.js"></script>
 </body>
 </html>
 

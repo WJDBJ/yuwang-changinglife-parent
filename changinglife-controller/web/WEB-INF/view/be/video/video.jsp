@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: XJ
-  Date: 2019/12/19
-  Time: 8:43
+  Date: 2019/12/22
+  Time: 11:41
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -31,46 +31,45 @@
         <thead>
         <tr>
             <th>序号</th>
-            <th>用户Id编号</th>
-            <th>用户名</th>
-            <th>头像</th>
-            <th>性别</th>
-            <th>出生日期</th>
-            <th>邮箱</th>
-            <th>家庭地址</th>
-            <th>年龄</th>
-            <th>备注</th>
+            <th>视频Id编号</th>
+            <th>视频名称</th>
+            <th>上传时间</th>
+            <th>上传用户编号</th>
+            <th>视频简介</th>
+            <th>视频审核</th>
         </tr>
         </thead>
         <tbody>
         <c:forEach items="${info.list}" var="i" varStatus="v">
             <tr>
                 <td>${v.index+1}</td>
-                <td>${i.loginUid}</td>
-                <td>${i.infoName}</td>
-                <td><img src="${i.infoImg}"/></td>
-                <td>${i.infoGender}</td>
-                <td>${i.infoBirthday}</td>
-                <td>${i.infoEmail}</td>
-                <td>${i.infoAddress}</td>
-                <td>${l.infoAge}</td>
-                <td>${l.infoDesc}</td>
+                <td>${i.videoId}</td>
+                <td>${i.videoName}</td>
+                <td>${i.videoReleasetime}</td>
+                <td>${i.videoRublisher}</td>
+                <td>${i.videoIntroduction}</td>
+                <c:if test="${i.videoAudit == 'N'}">
+                    <td>未审核</td>
+                </c:if>
+                <c:if test="${i.videoAudit == 'Y'}">
+                    <td>审核通过</td>
+                </c:if>
             </tr>
         </c:forEach>
         </tbody>
     </table>
     <div class="page">
         <div>
-            <a class="num" href="/user/inUser?pageNum=1">首页</a>
-            <a class="num" href="/user/inUser?pageNum=${info.prePage}">上一页</a>
+            <a class="num" href="/videoInfo/inVideoInfo?pageNum=1">首页</a>
+            <a class="num" href="/videoInfo/inVideoInfo?pageNum=${info.prePage}">上一页</a>
             <c:forEach items="${info.navigatepageNums}" var="n">
-                <a class="num" href="/user/inUser?pageNum=${n}">${n}</a>
+                <a class="num" href="/videoInfo/inVideoInfo?pageNum=${n}">${n}</a>
             </c:forEach>
-            <a class="num" href="/user/inUser?pageNum=${info.nextPage}">下一页</a>
-            <a class="num" href="/user/inUser?pageNum=${info.pageSize}">尾页</a>
+            <a class="num" href="/videoInfo/inVideoInfo?pageNum=${info.nextPage}">下一页</a>
+            <a class="num" href="/videoInfo/inVideoInfo?pageNum=${info.pageSize}">尾页</a>
         </div>
     </div>
-
 </div>
 </body>
 </html>
+

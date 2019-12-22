@@ -8,7 +8,7 @@ $(function () {
             {"statusName":status_name,"statusDescription":status_dosc},
             function (result) {
                 $(".alert").show();
-                window.setTimeout("window.location='/admin/inAdmin'",3000);
+                window.setTimeout("window.location='/role/inRole'",3000);
                 for (let i=3; i>0;i-- ){
                     $(".alert").text(result.msg+"     页面将在"+i+"秒后刷新······");
                 }
@@ -23,7 +23,7 @@ $(function () {
             {"statusId":status_id},
             function (result) {
                 $(".alert").show();
-                window.setTimeout("window.location='/admin/inAdmin'",3000);
+                window.setTimeout("window.location='/role/inRole'",3000);
                 for (let i=3; i>0;i-- ){
                     $(".alert").text(result.msg+"     页面将在"+i+"秒后刷新······");
                 }
@@ -69,7 +69,7 @@ $(function () {
             data: {"ids":getIdsFromCheckNodes(),"statusId":statusId},
             success: function (result) {
                 $(".alert").show();
-                window.setTimeout("window.location='/admin/inAdmin'",3000);
+                window.setTimeout("window.location='/role/inRole'",3000);
                 for (let i=3; i>0;i-- ){
                     $(".alert").text(result.msg+"     页面将在"+i+"秒后刷新······");
                 }

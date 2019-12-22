@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.VideoTypesDao">
+
+    <insert id="vtInsert">
+        <foreach collection="privileges" item="privilege" separator=";">
+            insert into video_types(vt_video, vt_type) values(#{videoId},#{privilege})
+        </foreach>
+    </insert>
+    <delete id="vtDelete">
+        delete from video_types where vt_video = #{videoId}
+    </delete>
+</mapper>
