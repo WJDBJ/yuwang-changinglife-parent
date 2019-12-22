@@ -26,7 +26,7 @@
 <div class="media" style="background-image: url(/static/images/index.jpg)">
     <div class="media-left media-top">
         <div style="width: 320px;height: 320px;border: solid 1px #555;padding: 5px;margin-top: 10px">
-            <img id="finalImg" src="/download?filename=${userInfo.infoImg}" class="media-object" width="100%">
+            <img id="finalImg" src="/photo/download?filename=${userInfo.infoImg}" class="media-object" width="100%">
         </div>
         <h2 class="media-heading" style="margin-top: 20px; margin-left: 30px; color: white">${userInfo.infoName}【${userInfo.loginUid}】</h2>
     </div>

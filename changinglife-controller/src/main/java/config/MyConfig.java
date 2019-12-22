@@ -1,5 +1,6 @@
 package config;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.pagehelper.PageInterceptor;
 import org.apache.ibatis.logging.stdout.StdOutImpl;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -14,12 +15,16 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.format.FormatterRegistry;
 import org.springframework.format.datetime.DateFormatter;
+import org.springframework.http.converter.HttpMessageConverter;
+import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.servlet.config.annotation.*;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import javax.sql.DataSource;
+import java.text.SimpleDateFormat;
+import java.util.List;
 import java.util.Properties;
 
 /**
@@ -91,4 +96,21 @@ public class MyConfig implements WebMvcConfigurer {
                 = registry.addResourceHandler("/static/**");
         registration.addResourceLocations("classpath:/static/");
     }
+
+
+//    /**
+//     * 这里添加的转换器不会添加默认转换器,
+//     * 如果想在保留默认转换器的情况下添加消息转换器,可以重写extendMessageConverters方法
+//     *
+//     * @param converters
+//     */
+//    @Override
+//    public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
+//        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+//        ObjectMapper objectMapper = new ObjectMapper();
+//        objectMapper.setDateFormat(sdf);
+//        MappingJackson2HttpMessageConverter converter = new MappingJackson2HttpMessageConverter(objectMapper);
+//        converters.add(converter);
+//    }
+
 }

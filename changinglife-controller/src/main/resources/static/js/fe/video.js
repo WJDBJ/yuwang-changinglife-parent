@@ -1,6 +1,5 @@
 $(function () {
     $("#Contribute").click(function () {
-        alert("ssss")
         const loginId = $(this).attr("data");
         $.ajax({
            url:"/contribute/inContribute",

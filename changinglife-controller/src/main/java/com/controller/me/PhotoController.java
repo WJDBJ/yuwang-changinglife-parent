@@ -19,10 +19,9 @@ import java.net.URLEncoder;
  * @author XJ
  */
 @Controller
+@RequestMapping("/photo")
 public class PhotoController {
-    String FILE_DIRECTORY = "E:\\程序员的前半生\\程序员项目\\钰网——改变生活\\yuwang-changinglife-parent" +
-            "\\changinglife-controller\\src\\main\\resources\\static\\images\\userImages";
-
+    String FILE_DIRECTORY = "F:\\userImages";
     @RequestMapping("/download")
     public ResponseEntity<InputStreamSource> download(String filename) throws IOException {
         //在mac系统下pathSeparator值为: ,separator值为: /

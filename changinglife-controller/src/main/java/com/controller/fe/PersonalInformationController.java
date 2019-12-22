@@ -52,9 +52,7 @@ public class PersonalInformationController {
     @PostMapping("/upload")
     @ResponseBody
     public ResponseVO upload(String userId, MultipartFile myFile){
-        String directory =
-                "E:\\程序员的前半生\\程序员项目\\钰网——改变生活\\yuwang-changinglife-parent" +
-                        "\\changinglife-controller\\src\\main\\resources\\static\\images\\userImages";
+        String directory = "F:\\userImages";
         //得到上传过来的文件名
         String path = directory + File.separator + userId + ".jpg";
         UserInfo userInfo = userInfoService.infoGetById(userId);

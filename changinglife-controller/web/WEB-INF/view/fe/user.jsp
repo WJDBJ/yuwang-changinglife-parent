@@ -35,7 +35,7 @@
             if(data.code == "200") {
                 console.log(data.msg);
                 $("#img").next().text(data.data.infoName);
-                $("#img").attr("src","/download?filename="+data.data.infoImg)
+                $("#img").attr("src","/photo/download?filename="+data.data.infoImg)
             }else if(data.code == "500") {
                 console.log(data.msg);
             }

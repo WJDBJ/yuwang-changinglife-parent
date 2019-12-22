@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.VideoDao">
+    <insert id="insertVideo">
+        insert into video(video_id, video_name, video_releasetime, video_rublisher,
+        video_introduction, video_address, video_audit) values (#{videoId},#{videoName},
+        #{videoReleasetime},#{videoRublisher},#{videoIntroduction},#{videoAddress},
+        #{videoAudit})
+    </insert>
+
+    <select id="videoCountId" resultType="java.lang.Integer">
+        select count(*) from video where video_id = #{videoId}
+     </select>
+</mapper>

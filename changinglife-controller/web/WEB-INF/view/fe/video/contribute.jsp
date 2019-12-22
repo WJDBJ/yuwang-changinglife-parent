@@ -12,10 +12,9 @@
 </head>
 <body>
     <form method="post" action="/contribute/upload" enctype="multipart/form-data">
-        视频：<input type="file" name="myFile"/>
-        视频名称：<input type="text" name="filename"/>
-        视频类别：<select name=""></select>
-        视频简介：<input type="text" name = "">
+        视频：<input type="file" name="myFile"/><br/>
+        视频名称：<input type="text" name="videoName"/><br/>
+        视频简介：<input type="text" name = "videoIntroduction"><br/>
         <input type="submit" value="上传视频">
     </form>
 </body>
