@@ -73,7 +73,7 @@
                     </a>
                 </li>
                 <ul class="nav nav-pills" style="float: left; margin-top: 10px;">
-                    <li><a href="#">消息</a></li>
+                    <li><a href="/">消息</a></li>
                     <li><a href="#">动态</a></li>
                     <li><a href="#">收藏</a></li>
                     <li><a href="#">历史</a></li>

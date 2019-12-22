@@ -55,7 +55,10 @@
                 <td>
                     <a class="audit layui-btn layui-btn-sm layui-btn-danger"
                        href="/audit/auditList?videoId=${i.videoId}&videoAddress=${i.videoAddress}">审核</a>
-                    <button class="delete layui-btn layui-btn-sm layui-btn-danger" data="${i.videoId}">退回</button>
+                    <button class="delete layui-btn layui-btn-sm layui-btn-danger" data="${i.videoId}"
+                            datas = "${i.videoAddress}">
+                        退回
+                    </button>
                 </td>
             </tr>
         </c:forEach>

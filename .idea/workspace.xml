@@ -7,37 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf9d81af-d97c-4fa4-8ba3-01d0ea7c8c01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/be/video/AuditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/be/video/VideoInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/be/video/VideoTypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css/jsmodern.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/images/bo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/be/audit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/be/auditList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/be/videoType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/jsmodern.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/video/audit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/video/auditList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/video/video.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/video/videoType.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/VideoTypeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/VideoTypesDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/VideoTypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/VideoTypesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/videotype/VideoTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/videotype/impl/VideoTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/videotypes/VideoTypesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/videotypes/impl/VideoTypesServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a28276dd-d56d-474e-8c48-7f6efeb576d5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a28276dd-d56d-474e-8c48-7f6efeb576d5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/video/InformationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/video/information.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/be/role.js" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/be/role.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/user/admins.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/user/admins.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/user/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/user/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/VideoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/java/com/dao/VideoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-dao/src/main/resources/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-dao/src/main/resources/VideoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/video/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/video/VideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/video/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-service/src/main/java/com/service/video/impl/VideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/be/video/AuditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/be/video/AuditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/JdbcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/be/audit.js" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/be/audit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/video/audit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/video/audit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/video/video.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/video/video.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,10 +80,10 @@
       <list>
         <option value="FxmlFile" />
         <option value="Mapper" />
-        <option value="Jsp File" />
         <option value="JavaScript File" />
         <option value="DeptMapper" />
         <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -161,7 +141,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/assembly" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -185,15 +165,17 @@
       <recent name="com.entrty" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.other" />
+      <recent name="com.util" />
       <recent name="com.vo" />
       <recent name="config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\css" />
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\assembly" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\css" />
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\images" />
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\js" />
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static" />
     </key>
   </component>
   <component name="RunManager">
@@ -358,7 +340,7 @@
       <workItem from="1576898127137" duration="578000" />
       <workItem from="1576898770143" duration="6943000" />
       <workItem from="1576978530431" duration="10165000" />
-      <workItem from="1577004579252" duration="16286000" />
+      <workItem from="1577004579252" duration="24827000" />
     </task>
     <task id="LOCAL-00001" summary="第1.1次提交">
       <created>1575361266087</created>
@@ -486,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576983966975</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="第1.7.3次提交">
+      <created>1577026340347</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1577026340347</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,10 +537,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="216" y="309" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1575269784833" />
-    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1576983964216">
+    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1577026336134">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1576983964216" />
+    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1577026336134" />
     <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1575342188285">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -568,70 +557,70 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="248" y="82" key="Github.UntrackedFilesDialog/0.0.1366.768@0.0.1366.768" timestamp="1575342533434" />
-    <state width="1043" height="288" key="GridCell.Tab.0.bottom" timestamp="1577025727425">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1577035392924">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1577025727425" />
-    <state width="1043" height="288" key="GridCell.Tab.0.center" timestamp="1577025727425">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1577035392924" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1577035392923">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1577025727425" />
-    <state width="1043" height="288" key="GridCell.Tab.0.left" timestamp="1577025727425">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1577035392923" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1577035392923">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1577025727425" />
-    <state width="1043" height="288" key="GridCell.Tab.0.right" timestamp="1577025727425">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1577035392923" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1577035392923">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1577025727425" />
-    <state width="1043" height="288" key="GridCell.Tab.1.bottom" timestamp="1577025724003">
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1577035392923" />
+    <state width="1043" height="298" key="GridCell.Tab.1.bottom" timestamp="1577035361131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1577025724003" />
-    <state width="1043" height="288" key="GridCell.Tab.1.center" timestamp="1577025724002">
+    <state width="1043" height="298" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1577035361131" />
+    <state width="1043" height="298" key="GridCell.Tab.1.center" timestamp="1577035361131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1577025724002" />
-    <state width="1043" height="288" key="GridCell.Tab.1.left" timestamp="1577025724002">
+    <state width="1043" height="298" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1577035361131" />
+    <state width="1043" height="298" key="GridCell.Tab.1.left" timestamp="1577035361130">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1577025724002" />
-    <state width="1043" height="288" key="GridCell.Tab.1.right" timestamp="1577025724003">
+    <state width="1043" height="298" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1577035361130" />
+    <state width="1043" height="298" key="GridCell.Tab.1.right" timestamp="1577035361131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1577025724003" />
-    <state width="1043" height="288" key="GridCell.Tab.2.bottom" timestamp="1577025724005">
+    <state width="1043" height="298" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1577035361131" />
+    <state width="1043" height="298" key="GridCell.Tab.2.bottom" timestamp="1577035361131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1577025724005" />
-    <state width="1043" height="288" key="GridCell.Tab.2.center" timestamp="1577025724004">
+    <state width="1043" height="298" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1577035361131" />
+    <state width="1043" height="298" key="GridCell.Tab.2.center" timestamp="1577035361131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1577025724004" />
-    <state width="1043" height="288" key="GridCell.Tab.2.left" timestamp="1577025724004">
+    <state width="1043" height="298" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1577035361131" />
+    <state width="1043" height="298" key="GridCell.Tab.2.left" timestamp="1577035361131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1577025724004" />
-    <state width="1043" height="288" key="GridCell.Tab.2.right" timestamp="1577025724005">
+    <state width="1043" height="298" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1577035361131" />
+    <state width="1043" height="298" key="GridCell.Tab.2.right" timestamp="1577035361131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1577025724005" />
-    <state width="1043" height="288" key="GridCell.Tab.3.bottom" timestamp="1577025724006">
+    <state width="1043" height="298" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1577035361131" />
+    <state width="1043" height="298" key="GridCell.Tab.3.bottom" timestamp="1577035361131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.3.bottom/0.0.1366.768@0.0.1366.768" timestamp="1577025724006" />
-    <state width="1043" height="288" key="GridCell.Tab.3.center" timestamp="1577025724005">
+    <state width="1043" height="298" key="GridCell.Tab.3.bottom/0.0.1366.768@0.0.1366.768" timestamp="1577035361131" />
+    <state width="1043" height="298" key="GridCell.Tab.3.center" timestamp="1577035361131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.3.center/0.0.1366.768@0.0.1366.768" timestamp="1577025724005" />
-    <state width="1043" height="288" key="GridCell.Tab.3.left" timestamp="1577025724005">
+    <state width="1043" height="298" key="GridCell.Tab.3.center/0.0.1366.768@0.0.1366.768" timestamp="1577035361131" />
+    <state width="1043" height="298" key="GridCell.Tab.3.left" timestamp="1577035361131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.3.left/0.0.1366.768@0.0.1366.768" timestamp="1577025724005" />
-    <state width="1043" height="288" key="GridCell.Tab.3.right" timestamp="1577025724006">
+    <state width="1043" height="298" key="GridCell.Tab.3.left/0.0.1366.768@0.0.1366.768" timestamp="1577035361131" />
+    <state width="1043" height="298" key="GridCell.Tab.3.right" timestamp="1577035361131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1043" height="288" key="GridCell.Tab.3.right/0.0.1366.768@0.0.1366.768" timestamp="1577025724006" />
+    <state width="1043" height="298" key="GridCell.Tab.3.right/0.0.1366.768@0.0.1366.768" timestamp="1577035361131" />
     <state x="263" y="118" key="IDE.errors.dialog" timestamp="1575285443695">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -648,10 +637,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="503" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1576155303621" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1576983975735">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1577026345938">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1576983975735" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1577026345938" />
     <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog" timestamp="1576653917777">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
