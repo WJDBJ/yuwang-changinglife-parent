@@ -41,6 +41,8 @@
         <log4j.version>1.2.17</log4j.version>
         <spring.rabbitmq.version>2.2.1.RELEASE</spring.rabbitmq.version>
         <mail.version>1.6.2</mail.version>
+        <swagger.version>2.9.2</swagger.version>
+        <lang.versin>2.6</lang.versin>
     </properties>
 
     <dependencyManagement>
@@ -136,7 +138,7 @@
             <dependency>
                 <groupId>org.apache.directory.studio</groupId>
                 <artifactId>org.apache.commons.lang</artifactId>
-                <version>2.6</version>
+                <version>${lang.versin}</version>
             </dependency>
 
 
@@ -159,6 +161,19 @@
                 <groupId>org.springframework.amqp</groupId>
                 <artifactId>spring-rabbit</artifactId>
                 <version>${spring.rabbitmq.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+
+            <!-- Swagger UI提供了Web页面以方便开发人员查看API文档-->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${swagger.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

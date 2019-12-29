@@ -7,16 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf9d81af-d97c-4fa4-8ba3-01d0ea7c8c01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/fe/video/InformationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/video/information.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/interceptor/FirstInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changinglife-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/be/video/AuditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/com/controller/be/video/AuditController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/JdbcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/MyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/be/audit.js" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/resources/static/js/be/audit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/video/audit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/be/video/audit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/video/video.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/web/WEB-INF/view/fe/video/video.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/changinglife-controller/src/main/java/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,27 +144,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\css" />
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\images" />
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\js" />
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static" />
-      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\web\WEB-INF\view\me" />
-    </key>
     <key name="CreateBuilderDialog.RecentsKey">
       <recent name="com.entrty" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.other" />
-      <recent name="com.util" />
-      <recent name="com.vo" />
-      <recent name="config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\assembly" />
@@ -176,6 +159,20 @@
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\css" />
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\images" />
       <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.interceptor" />
+      <recent name="config" />
+      <recent name="com.other" />
+      <recent name="com.util" />
+      <recent name="com.vo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\css" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\images" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static\js" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\src\main\resources\static" />
+      <recent name="E:\程序员的前半生\程序员项目\钰网——改变生活\yuwang-changinglife-parent\changinglife-controller\web\WEB-INF\view\me" />
     </key>
   </component>
   <component name="RunManager">
@@ -265,20 +262,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:changedb@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:changedb@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@50101d2a" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -341,6 +324,13 @@
       <workItem from="1576898770143" duration="6943000" />
       <workItem from="1576978530431" duration="10165000" />
       <workItem from="1577004579252" duration="24827000" />
+      <workItem from="1577035380908" duration="93000" />
+      <workItem from="1577083269049" duration="2612000" />
+      <workItem from="1577151346693" duration="99000" />
+      <workItem from="1577256310864" duration="68000" />
+      <workItem from="1577276137643" duration="38000" />
+      <workItem from="1577342867684" duration="591000" />
+      <workItem from="1577619083728" duration="3026000" />
     </task>
     <task id="LOCAL-00001" summary="第1.1次提交">
       <created>1575361266087</created>
@@ -475,7 +465,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577026340347</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="第1.7.4次提交">
+      <created>1577035415213</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1577035415213</updated>
+    </task>
+    <task id="LOCAL-00021" summary="第1.7.4次提交">
+      <created>1577035455454</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1577035455454</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,12 +510,14 @@
     <MESSAGE value="第1.7.1次提交,进行重新架构" />
     <MESSAGE value="第1.7.2次提交,进行重新架构" />
     <MESSAGE value="第1.7.3次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第1.7.3次提交" />
+    <MESSAGE value="第1.7.4次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第1.7.4次提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="42" key="#Project_Structure" timestamp="1575286667057">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="275" y="40" key="#Project_Structure" timestamp="1577622569944">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="275" y="40" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1577622569944" />
     <state x="275" y="42" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1575286667057" />
     <state x="148" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576978849079">
       <screen x="0" y="0" width="1366" height="768" />
@@ -537,10 +543,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="216" y="309" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1575269784833" />
-    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1577035434477">
+    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1577035453997">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1577035434477" />
+    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1577035453997" />
     <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1575342188285">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -557,22 +563,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="248" y="82" key="Github.UntrackedFilesDialog/0.0.1366.768@0.0.1366.768" timestamp="1575342533434" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1577035392924">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1577035473669">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1577035392924" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1577035392923">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1577035473669" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1577035473669">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1577035392923" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1577035392923">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1577035473669" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1577035473669">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1577035392923" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1577035392923">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1577035473669" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1577035473669">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1577035392923" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1577035473669" />
     <state width="1043" height="298" key="GridCell.Tab.1.bottom" timestamp="1577035361131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -629,18 +635,18 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="234" y="94" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1577017750058" />
-    <state x="184" y="0" width="1039" height="768" key="SettingsEditor" timestamp="1576983816111">
+    <state x="184" y="0" width="1039" height="768" key="SettingsEditor" timestamp="1577151445224">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="184" y="0" width="1039" height="768" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1576983816111" />
+    <state x="184" y="0" width="1039" height="768" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1577151445224" />
     <state width="503" height="446" key="SwitcherDM" timestamp="1576155303621">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="503" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1576155303621" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1577035418183">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1577035466355">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1577035418183" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1577035466355" />
     <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog" timestamp="1576653917777">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
